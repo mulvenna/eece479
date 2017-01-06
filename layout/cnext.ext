@@ -1,0 +1,108 @@
+timestamp 1428536589
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use ../cells/and and_2 1 0 61 0 1 74
+use ../cells/and and_0 1 0 122 0 1 74
+use ../cells/or or_1 1 0 0 0 -1 27
+use ../cells/or or_0 1 0 61 0 -1 27
+use ../cells/and and_1 1 0 122 0 -1 27
+node "m1_86_3#" 0 2068 86 3 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "m1_25_3#" 0 2068 25 3 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "c1" 0 940 -30 18 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "n0" 0 1175 147 22 m1 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0
+node "m1_86_22#" 0 3290 86 22 m1 0 0 0 0 0 0 0 0 0 0 0 0 70 40 0 0 0 0
+node "m1_25_22#" 0 2820 25 22 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 40 0 0 0 0
+node "c0b" 0 940 -30 27 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_126_42#" 0 752 126 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_86_42#" 0 2068 86 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "m1_25_42#" 0 2068 25 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "Gnd" 0 940 -30 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_49_46#" 0 1692 49 46 m1 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "m1_126_55#" 0 752 126 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_86_55#" 0 2068 86 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "c0" 0 2728 53 68 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 120 68 0 0
+node "n1" 0 1175 147 74 m1 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0
+node "m1_86_74#" 0 2820 86 74 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 40 0 0 0 0
+node "c1b" 0 1892 36 79 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 76 46 0 0
+node "m1_111_3#" 1 8116 111 3 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 380 198 0 0
+node "m1_86_94#" 0 2068 86 94 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "a_18_65#" 105 12312 18 65 ndiff 30 22 30 22 0 0 0 0 0 0 0 0 127 80 675 332 0 0
+node "a_n2_65#" 104 7095 -2 65 ndiff 30 22 30 22 0 0 0 0 0 0 0 0 111 64 408 188 0 0
+node "start" 393 8945 11 62 p 0 0 0 0 201 122 0 0 0 0 0 0 108 70 236 126 0 0
+node "sign" 332 6515 -9 62 p 0 0 0 0 176 106 0 0 0 0 0 0 125 60 0 0 0 0
+node "w_n13_55#" 509 2068 -13 55 pw 70 48 32 32 0 0 0 0 0 0 0 0 196 106 0 0 0 0
+node "Vdd" 5529 5264 -13 79 nw 32 32 70 48 0 0 0 0 0 0 0 0 264 140 0 0 722 114
+cap "sign" "start" 342
+cap "start" "Vdd" 8189
+cap "sign" "Vdd" 5977
+cap "start" "w_n13_55#" 5737
+cap "sign" "w_n13_55#" 5977
+cap "a_18_65#" "Vdd" 705
+cap "a_n2_65#" "Vdd" 705
+cap "a_18_65#" "w_n13_55#" 2220
+cap "a_18_65#" "m1_49_46#" 720
+cap "a_n2_65#" "w_n13_55#" 2220
+device mosfet nfet 18 62 19 63 3 5 "w_n13_55#" "start" 6 0 "w_n13_55#" 5 0 "a_18_65#" 5 0
+device mosfet nfet -2 62 -1 63 3 5 "w_n13_55#" "sign" 6 0 "w_n13_55#" 5 0 "a_n2_65#" 5 0
+device mosfet pfet 18 88 19 89 3 5 "Vdd" "start" 6 0 "a_18_65#" 5 0 "Vdd" 5 0
+device mosfet pfet -2 88 -1 89 3 5 "Vdd" "sign" 6 0 "a_n2_65#" 5 0 "Vdd" 5 0
+cap "and_2/Vdd" "and_2/a" 2160
+cap "and_2/Vdd" "and_2/b" 720
+cap "and_2/Vdd" "and_2/b" 703
+cap "and_2/Vdd" "and_2/a" 228
+cap "or_0/a" "or_1/z" 900
+cap "and_2/Gnd" "or_0/a" 2710
+cap "and_2/Gnd" "and_2/b" 228
+cap "and_2/a_n16_12#" "and_2/b" 1479
+cap "or_0/a" "or_1/a_n16_n11#" 304
+cap "or_0/a" "or_1/b" 627
+cap "and_2/Gnd" "and_2/Vdd" 1328
+cap "or_0/Gnd" "and_0/a" 2388
+cap "and_2/Gnd" "and_0/a" 2464
+cap "and_0/a_n16_n11#" "and_2/Vdd" 352
+cap "and_0/a_n16_12#" "and_2/Vdd" 2700
+cap "and_1/a_n16_n11#" "and_2/Vdd" 352
+cap "and_2/z" "and_2/Vdd" 720
+cap "and_1/a_n16_12#" "and_2/Vdd" 2700
+cap "and_2/z" "and_0/a" 720
+cap "or_0/Gnd" "and_2/Vdd" 1328
+cap "and_0/a" "and_2/Vdd" 796
+merge "and_1/b" "and_0/a" -4240 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0
+merge "and_0/a" "a_18_65#"
+merge "and_1/Gnd" "and_0/Gnd" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -64 0 0 0 0
+merge "and_0/Gnd" "or_0/Gnd"
+merge "or_0/Gnd" "and_2/Gnd"
+merge "and_2/Gnd" "w_n13_55#"
+merge "w_n13_55#" "m1_49_46#"
+merge "m1_49_46#" "or_1/Gnd"
+merge "or_1/Gnd" "Gnd"
+merge "Gnd" "m1_25_42#"
+merge "m1_25_42#" "m1_86_55#"
+merge "m1_86_55#" "m1_126_55#"
+merge "m1_126_55#" "m1_86_42#"
+merge "m1_86_42#" "m1_126_42#"
+merge "and_2/a" "c1b" -1892 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "or_0/a" "a_n2_65#" -4229 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "and_0/b" "and_2/z" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0
+merge "and_2/z" "m1_86_74#"
+merge "and_2/b" "c0" -2728 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -120 -68 0 0
+merge "or_1/b" "c1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "and_1/z" "n0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "and_0/z" "n1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "and_1/Vdd" "or_0/Vdd" -7432 0 0 0 0 0 0 0 0 0 0 0 0 -32 -64 0 0 0 0
+merge "or_0/Vdd" "or_1/Vdd"
+merge "or_1/Vdd" "m1_25_3#"
+merge "m1_25_3#" "m1_86_3#"
+merge "m1_86_3#" "and_0/Vdd"
+merge "and_0/Vdd" "and_2/Vdd"
+merge "and_2/Vdd" "Vdd"
+merge "Vdd" "m1_86_94#"
+merge "m1_86_94#" "m1_111_3#"
+merge "or_0/b" "or_1/z" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0
+merge "or_1/z" "m1_25_22#"
+merge "and_1/a" "or_0/z" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0
+merge "or_0/z" "m1_86_22#"
+merge "or_1/a" "c0b" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

@@ -1,0 +1,133 @@
+timestamp 1428795852
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use cvbit cvbit_0 1 0 10 0 1 109
+use cvbit cvbit_1 1 0 173 0 1 109
+use cvbit cvbit_2 1 0 336 0 1 109
+use cvbit cvbit_3 1 0 499 0 1 109
+use ../cells/not not_0 1 0 684 0 1 502
+use cvbit cvbit_4 1 0 662 0 1 109
+use and5 and5_0 1 0 747 0 1 -81
+node "reset" 0 228 811 -3 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "m2_741_0#" 0 0 741 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Vdd" 0 228 812 162 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "clk" 0 228 812 210 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "Gnd" 1 5073 812 243 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 267 184 0 0
+node "m1_741_n78#" 1 4970 741 -78 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 312 172 0 0
+node "valid" 0 423 813 -59 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_796_n37#" 1 11468 796 -37 m1 0 0 0 0 0 0 0 0 0 0 0 0 244 130 0 0 0 0
+node "m1_684_496#" 0 0 684 496 m1 0 0 0 0 0 0 0 0 0 0 0 0 70 52 0 0 0 0
+node "startb" 0 2820 678 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 38 0 0 0 0
+node "m1_22_531#" 6 154160 22 531 m1 0 0 0 0 0 0 0 0 0 0 0 0 3280 1322 0 0 0 0
+node "a_776_n43#" 152 18898 776 -43 p 0 0 0 0 34 34 0 0 0 0 0 0 332 174 0 0 0 0
+node "a_741_n30#" 187 102752 741 -30 pc 0 0 0 0 38 38 0 0 0 0 0 0 2106 1392 0 0 0 0
+node "a_750_n23#" 270 87122 750 -23 pc 0 0 0 0 52 52 0 0 0 0 0 0 1738 1164 0 0 0 0
+node "a_760_n42#" 399 67744 760 -42 p 0 0 0 0 74 74 0 0 0 0 0 0 1270 852 0 0 0 0
+node "a_766_n9#" 444 45008 766 -9 pc 0 0 0 0 82 82 0 0 0 0 0 0 766 516 0 0 0 0
+node "a_569_523#" 24 3220 569 523 pc 0 0 0 0 16 16 0 0 0 0 0 0 44 30 0 0 0 0
+node "a_406_523#" 24 3220 406 523 pc 0 0 0 0 16 16 0 0 0 0 0 0 44 30 0 0 0 0
+node "a_243_524#" 24 3220 243 524 pc 0 0 0 0 16 16 0 0 0 0 0 0 44 30 0 0 0 0
+node "a_80_524#" 24 3220 80 524 pc 0 0 0 0 16 16 0 0 0 0 0 0 44 30 0 0 0 0
+node "start" 64 240 689 528 p 0 0 0 0 24 22 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_681_494#" 0 0 681 494 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_681_514#" 2899 10270 681 514 nw 25 20 0 0 16 16 0 0 0 0 0 0 312 140 0 0 550 94
+cap "m2_741_0#" "a_776_n43#" 720
+cap "a_750_n23#" "m1_741_n78#" 540
+cap "a_760_n42#" "m1_741_n78#" 540
+cap "m1_741_n78#" "a_766_n9#" 540
+cap "m1_684_496#" "w_681_494#" 3290
+cap "m1_741_n78#" "a_741_n30#" 1138
+cap "start" "w_681_514#" 2906
+cap "and5_0/Vdd" "and5_0/a" 570
+cap "and5_0/Vdd" "m2_741_0#" 720
+cap "m2_741_0#" "cvbit_4/q" 7380
+cap "and5_0/Gnd" "and5_0/a" 760
+cap "and5_0/Vdd" "cvbit_4/q" 570
+cap "and5_0/Vdd" "and5_0/d" 570
+cap "and5_0/c" "and5_0/Vdd" 804
+cap "and5_0/Vdd" "and5_0/Gnd" 1336
+cap "and5_0/Vdd" "and5_0/b" 570
+cap "cvbit_4/reg1_0/Gnd" "and5_0/Gnd" 76
+cap "and5_0/Vdd" "cvbit_4/reg1_0/Vdd" 940
+cap "cvbit_4/reg1_0/nor_1/a_n13_15#" "cvbit_4/reg1_0/Vdd" 752
+cap "not_0/a_5_n2#" "not_0/a_8_0#" 360
+cap "not_0/a_5_n2#" "w_681_494#" 702
+cap "not_0/a_5_n2#" "w_681_514#" 468
+cap "not_0/a_8_0#" "w_681_494#" 752
+cap "not_0/a_0_0#" "w_681_494#" 376
+cap "not_0/a_8_0#" "w_681_514#" 752
+cap "cvbit_4/addsub1_0/Gnd" "w_681_494#" 2820
+cap "cvbit_0/addsub1_0/Gnd" "cvbit_0/b" 564
+cap "cvbit_1/addsub1_0/Gnd" "cvbit_1/b" 564
+cap "cvbit_2/addsub1_0/Gnd" "cvbit_2/addsub1_0/Gnd" 47
+cap "cvbit_2/b" "cvbit_2/addsub1_0/Gnd" 329
+cap "cvbit_3/b" "cvbit_3/addsub1_0/Gnd" 376
+cap "not_0/a_5_n2#" "not_0/a_0_16#" 234
+cap "cvbit_4/addsub1_0/Vdd" "cvbit_4/b" 940
+cap "cvbit_4/b" "cvbit_4/addsub1_0/Gnd" 799
+merge "cvbit_4/c" "cvbit_4/Gnd" -456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0
+merge "cvbit_4/Gnd" "cvbit_3/Gnd"
+merge "cvbit_3/Gnd" "cvbit_2/Gnd"
+merge "cvbit_2/Gnd" "cvbit_1/Gnd"
+merge "cvbit_1/Gnd" "cvbit_0/Gnd"
+merge "cvbit_0/Gnd" "Gnd"
+merge "cvbit_4/clk" "cvbit_3/clk" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "cvbit_3/clk" "cvbit_2/clk"
+merge "cvbit_2/clk" "cvbit_1/clk"
+merge "cvbit_1/clk" "cvbit_0/clk"
+merge "cvbit_0/clk" "clk"
+merge "cvbit_4/reset" "cvbit_3/reset" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_3/reset" "cvbit_2/reset"
+merge "cvbit_2/reset" "cvbit_1/reset"
+merge "cvbit_1/reset" "cvbit_0/reset"
+merge "cvbit_0/reset" "m2_741_0#"
+merge "m2_741_0#" "reset"
+merge "cvbit_4/addsub1_0/Vdd" "cvbit_4/b" -2595 0 0 0 0 0 -6 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "cvbit_4/b" "not_0/a_0_16#"
+merge "not_0/a_0_16#" "w_681_514#"
+merge "cvbit_0/b" "cvbit_0/addsub1_0/Gnd" -1974 0 0 0 0 -6 -10 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "cvbit_0/addsub1_0/Gnd" "a_80_524#"
+merge "and5_0/q" "valid" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "cvbit_2/x" "cvbit_1/c" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_4/startb" "not_0/a_8_0#" -9400 0 0 0 0 0 0 0 0 0 0 0 0 -200 -440 0 0 0 0
+merge "not_0/a_8_0#" "startb"
+merge "startb" "cvbit_3/startb"
+merge "cvbit_3/startb" "cvbit_2/startb"
+merge "cvbit_2/startb" "cvbit_1/startb"
+merge "cvbit_1/startb" "cvbit_0/startb"
+merge "cvbit_0/startb" "m1_22_531#"
+merge "and5_0/d" "cvbit_3/qb" -1230 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -16 0 0 0 0
+merge "cvbit_3/qb" "a_766_n9#"
+merge "cvbit_4/reg1_0/nor_1/a_n13_15#" "and5_0/Vdd" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -4 -19 0 0 0 0
+merge "and5_0/Vdd" "m1_796_n37#"
+merge "not_0/a_5_n2#" "start" -714 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cvbit_4/Vdd" "Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "cvbit_3/b" "cvbit_3/addsub1_0/Gnd" -2251 0 0 0 0 -9 -12 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "cvbit_3/addsub1_0/Gnd" "a_569_523#"
+merge "cvbit_3/m2_n10_49#" "cvbit_2/Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "and5_0/Gnd" "cvbit_4/reg1_0/Gnd" -3336 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 -12 -14 0 0
+merge "cvbit_4/reg1_0/Gnd" "m1_741_n78#"
+merge "cvbit_4/addsub1_0/Gnd" "w_681_494#" -3196 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "w_681_494#" "not_0/a_0_0#"
+merge "not_0/a_0_0#" "m1_684_496#"
+merge "cvbit_4/x" "cvbit_3/c" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_1/x" "cvbit_0/c" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "and5_0/a" "cvbit_0/q" -1086 0 0 0 0 0 -4 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "cvbit_0/q" "a_741_n30#"
+merge "cvbit_2/b" "cvbit_2/addsub1_0/Gnd" -2251 0 0 0 0 -9 -12 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "cvbit_2/addsub1_0/Gnd" "a_406_523#"
+merge "and5_0/c" "cvbit_2/qb" -1605 0 0 0 0 -2 -6 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "cvbit_2/qb" "a_760_n42#"
+merge "and5_0/e" "cvbit_4/q" -1938 0 0 0 0 -4 -8 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "cvbit_4/q" "a_776_n43#"
+merge "cvbit_3/x" "cvbit_2/c" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_1/b" "cvbit_1/addsub1_0/Gnd" -1974 0 0 0 0 -6 -10 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "cvbit_1/addsub1_0/Gnd" "a_243_524#"
+merge "cvbit_4/m2_n10_49#" "cvbit_3/Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_1/m2_n10_49#" "cvbit_0/Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "cvbit_2/m2_n10_49#" "cvbit_1/Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "and5_0/b" "cvbit_1/qb" -710 0 0 0 0 0 -4 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "cvbit_1/qb" "a_750_n23#"

@@ -1,0 +1,114 @@
+magic
+tech scmos
+timestamp 1428795827
+<< polysilicon >>
+rect 70 411 73 417
+rect 108 228 110 229
+rect 122 196 126 229
+rect 122 85 125 97
+rect 140 -66 149 -64
+<< metal1 >>
+rect -3 152 1 178
+rect 12 154 16 422
+rect 107 223 111 224
+rect 122 191 126 192
+rect 21 154 25 159
+rect 122 146 126 168
+rect 130 154 134 178
+rect 16 91 21 104
+rect 46 98 57 101
+rect 31 97 57 98
+rect 31 94 49 97
+rect 16 88 72 91
+rect 69 85 72 88
+rect 87 88 91 142
+rect 95 90 98 111
+rect 107 97 121 101
+rect 125 97 132 101
+rect 40 75 43 79
+rect 87 46 91 65
+rect 22 -109 25 -76
+rect 69 -109 73 -98
+rect 149 -105 153 -68
+<< metal2 >>
+rect -10 219 72 223
+rect 111 219 153 223
+rect 1 178 40 182
+rect 68 172 72 219
+rect 122 172 126 187
+rect 25 159 90 163
+rect 40 150 130 154
+rect 91 142 122 146
+rect -10 134 -3 138
+rect 1 134 153 138
+rect -3 115 1 121
+rect -3 111 95 115
+rect -10 98 -4 101
+rect -10 94 27 98
+rect 36 79 40 101
+rect 61 97 103 101
+rect 136 97 153 101
+rect 87 69 91 84
+rect -10 49 48 53
+rect 145 49 153 53
+rect 69 42 87 45
+rect 69 41 89 42
+rect 69 -83 72 41
+rect -10 -109 149 -105
+<< polycontact >>
+rect 116 389 120 393
+rect 107 224 111 228
+rect 122 192 126 196
+rect 121 97 125 101
+rect 149 -68 153 -64
+<< m2contact >>
+rect -3 178 1 182
+rect 107 219 111 223
+rect 122 187 126 191
+rect 40 178 44 182
+rect 68 168 72 172
+rect 122 168 126 172
+rect 21 159 25 163
+rect 90 159 94 163
+rect 36 150 40 154
+rect 130 150 134 154
+rect 87 142 91 146
+rect 122 142 126 146
+rect -3 134 1 138
+rect -3 121 1 125
+rect 36 101 40 105
+rect 27 94 31 98
+rect 57 97 61 101
+rect 95 111 99 115
+rect 103 97 107 101
+rect 132 97 136 101
+rect 87 84 91 88
+rect 36 75 40 79
+rect 87 65 91 69
+rect 87 42 91 46
+rect 69 -87 73 -83
+rect 149 -109 153 -105
+use ../cells/addsub1  addsub1_0
+timestamp 1428786523
+transform 0 1 74 -1 0 309
+box -113 -34 149 63
+use ../cells/and  and_0
+timestamp 1428029823
+transform 0 1 16 -1 0 129
+box -25 -19 25 24
+use ../cells/reg1  reg1_0
+timestamp 1428701549
+transform 0 -1 101 -1 0 41
+box -52 -48 141 101
+<< labels >>
+rlabel metal2 136 221 136 221 1 c
+rlabel metal2 69 221 69 221 1 x
+rlabel polysilicon 71 415 71 415 1 b
+rlabel metal2 151 51 151 51 7 Vdd
+rlabel metal2 151 136 151 136 7 Gnd
+rlabel metal1 14 414 14 414 1 startb
+rlabel m2contact 151 -107 151 -107 8 reset
+rlabel metal1 71 -103 71 -103 1 q
+rlabel metal2 151 99 151 99 7 clk
+rlabel metal1 23 -102 23 -102 1 qb
+<< end >>

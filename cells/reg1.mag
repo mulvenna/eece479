@@ -1,0 +1,244 @@
+magic
+tech scmos
+timestamp 1428701549
+<< pwell >>
+rect 83 58 130 76
+rect -47 2 140 27
+rect -15 -15 140 2
+rect 27 -17 140 -15
+rect -48 -45 -18 -26
+<< nwell >>
+rect 57 79 118 101
+rect 57 67 78 79
+rect -47 53 78 67
+rect -47 33 138 53
+rect 69 32 138 33
+rect -47 -19 -17 0
+rect 3 -24 72 -19
+rect 3 -35 136 -24
+rect -13 -46 136 -35
+rect -13 -48 8 -46
+<< polysilicon >>
+rect 7 51 52 53
+rect 7 46 9 51
+rect -14 43 9 46
+rect -32 -2 -21 0
+rect -32 -3 -30 -2
+rect -32 -21 -30 -18
+rect -44 -24 -30 -21
+rect -32 -28 -30 -24
+rect -14 -28 -12 21
+rect 7 -2 9 43
+rect 50 20 52 51
+rect 62 42 88 45
+rect 50 17 64 20
+rect 35 0 37 16
+rect 62 9 64 17
+rect 86 15 88 42
+rect 35 -1 100 0
+rect 35 -2 107 -1
+rect -5 -4 15 -2
+rect 98 -3 107 -2
+rect 13 -6 15 -4
+rect 105 -7 107 -3
+rect 88 -11 98 -9
+rect -14 -30 15 -28
+rect -32 -38 -30 -35
+rect 13 -40 15 -30
+rect 61 -33 63 -15
+rect 61 -36 90 -33
+rect 96 -40 98 -11
+rect 13 -42 98 -40
+<< ndiffusion >>
+rect -33 -35 -32 -28
+rect -30 -35 -29 -28
+<< pdiffusion >>
+rect -33 -18 -32 -3
+rect -30 -18 -29 -3
+<< metal1 >>
+rect 64 94 116 98
+rect 64 60 69 94
+rect 92 91 96 94
+rect -38 59 69 60
+rect -38 57 3 59
+rect -38 53 -12 57
+rect -8 54 3 57
+rect 9 58 69 59
+rect 9 54 64 58
+rect -8 53 64 54
+rect 78 76 94 79
+rect 101 76 117 79
+rect -38 45 -34 53
+rect 15 47 19 53
+rect -44 29 -37 32
+rect -25 29 -22 33
+rect -4 29 16 32
+rect 78 32 83 76
+rect 92 62 96 65
+rect 92 58 110 62
+rect 114 58 133 62
+rect 92 45 96 48
+rect 115 45 119 48
+rect -38 13 -35 18
+rect -38 6 -35 9
+rect -52 3 -5 6
+rect -52 -32 -49 3
+rect -40 -7 -37 -3
+rect -44 -13 -37 -11
+rect -42 -17 -37 -13
+rect -17 -4 -9 -1
+rect 2 -18 5 29
+rect 43 28 54 31
+rect 72 28 94 32
+rect 105 28 117 32
+rect 127 28 139 32
+rect 15 6 18 16
+rect 38 6 41 16
+rect 38 2 39 6
+rect 40 -6 43 2
+rect 23 -18 31 -14
+rect 47 -16 50 28
+rect 61 -11 64 5
+rect 78 4 81 28
+rect 76 1 81 4
+rect -29 -22 -25 -18
+rect 42 -19 50 -16
+rect 76 -19 79 1
+rect 86 -5 89 11
+rect 92 6 95 17
+rect 109 10 112 28
+rect 109 6 141 10
+rect 101 -9 104 0
+rect 124 -9 127 -1
+rect -29 -25 -18 -22
+rect 76 -23 80 -19
+rect 98 -23 101 -19
+rect 137 -20 141 6
+rect 125 -23 141 -20
+rect -29 -28 -25 -25
+rect -52 -35 -46 -32
+rect -42 -35 -37 -32
+rect -8 -44 -3 -41
+rect 39 -41 42 -33
+rect 51 -41 57 -40
+rect 123 -41 127 -39
+rect 2 -44 127 -41
+<< metal2 >>
+rect -12 6 -9 53
+rect 64 48 92 53
+rect 97 48 114 53
+rect 119 48 127 53
+rect -44 2 -9 6
+rect -1 2 15 5
+rect 19 2 39 5
+rect 43 2 92 5
+rect 115 5 118 13
+rect 133 5 136 58
+rect 96 4 136 5
+rect 96 2 101 4
+rect -44 -3 -40 2
+rect -12 -40 -9 2
+rect 105 3 136 4
+rect 105 2 124 3
+rect 128 2 136 3
+<< ntransistor >>
+rect -32 -35 -30 -28
+<< ptransistor >>
+rect -32 -18 -30 -3
+<< polycontact >>
+rect 94 76 98 80
+rect -37 29 -33 33
+rect -21 -4 -17 0
+rect -18 -25 -14 -21
+rect -9 -5 -5 -1
+rect 16 29 20 33
+rect 94 28 98 32
+rect 117 28 121 32
+rect 85 11 89 15
+rect 61 5 65 9
+rect 86 -9 90 -5
+rect 61 -15 65 -11
+rect 38 -20 42 -16
+rect 121 -24 125 -20
+<< ndcontact >>
+rect -37 -35 -33 -28
+rect -29 -35 -25 -28
+<< pdcontact >>
+rect -37 -18 -33 -3
+rect -29 -18 -25 -3
+<< m2contact >>
+rect -12 53 -8 57
+rect 64 53 69 58
+rect 133 58 137 62
+rect 92 48 97 53
+rect 114 48 119 53
+rect -5 2 -1 6
+rect -44 -7 -40 -3
+rect 15 2 19 6
+rect 39 2 43 6
+rect 115 13 119 17
+rect 92 2 96 6
+rect 101 0 105 4
+rect 124 -1 128 3
+rect -12 -44 -8 -40
+<< psubstratepcontact >>
+rect 110 58 114 62
+rect -38 9 -34 13
+rect -46 -35 -42 -31
+<< nsubstratencontact >>
+rect 3 54 9 59
+rect -46 -17 -42 -13
+rect -3 -45 2 -39
+use not  not_3
+timestamp 1428691164
+transform 1 0 92 0 1 67
+box 0 -2 13 26
+use not  not_0
+timestamp 1428691164
+transform 1 0 -38 0 1 20
+box 0 -2 13 26
+use trans  trans_0
+timestamp 1428691952
+transform 1 0 -15 0 1 35
+box -7 -14 11 9
+use nor  nor_0
+timestamp 1428690772
+transform 1 0 28 0 1 23
+box -13 -7 15 25
+use trans  trans_1
+timestamp 1428691952
+transform 1 0 61 0 1 34
+box -7 -14 11 9
+use not  not_1
+timestamp 1428691164
+transform 1 0 92 0 1 19
+box 0 -2 13 26
+use not  not_2
+timestamp 1428691164
+transform 1 0 115 0 1 19
+box 0 -2 13 26
+use trans  trans_3
+timestamp 1428691952
+transform -1 0 16 0 -1 -20
+box -7 -14 11 9
+use not  not_4
+timestamp 1428691164
+transform -1 0 43 0 -1 -7
+box 0 -2 13 26
+use trans  trans_2
+timestamp 1428691952
+transform -1 0 91 0 -1 -25
+box -7 -14 11 9
+use nor  nor_1
+timestamp 1428690772
+transform -1 0 114 0 -1 -14
+box -13 -7 15 25
+<< labels >>
+rlabel metal1 136 30 136 30 7 q
+rlabel metal1 114 77 114 77 1 qb
+rlabel metal1 -43 31 -43 31 3 d
+rlabel metal1 32 56 32 56 1 Vdd
+rlabel metal1 -32 3 -32 3 1 Gnd
+rlabel polysilicon 68 -1 68 -1 1 reset
+rlabel polysilicon -43 -22 -43 -22 3 clk
+<< end >>

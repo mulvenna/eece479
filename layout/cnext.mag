@@ -1,0 +1,148 @@
+magic
+tech scmos
+timestamp 1428536589
+<< pwell >>
+rect -13 55 25 74
+<< nwell >>
+rect -13 79 25 98
+<< polysilicon >>
+rect -9 88 -2 91
+rect 3 88 5 91
+rect 11 88 18 91
+rect 23 88 28 91
+rect -9 79 -5 88
+rect -9 65 -5 74
+rect 11 65 15 88
+rect -9 62 -2 65
+rect 3 62 5 65
+rect 11 62 18 65
+rect 23 62 25 65
+<< ndiffusion >>
+rect -2 65 3 67
+rect 18 65 23 67
+rect -2 59 3 62
+rect 18 59 23 62
+<< pdiffusion >>
+rect -2 91 3 94
+rect 18 91 23 94
+rect -2 86 3 88
+rect 18 86 23 88
+<< metal1 >>
+rect -30 94 -11 98
+rect -7 94 -2 98
+rect 3 94 9 98
+rect 13 94 18 98
+rect 23 94 36 98
+rect 86 94 97 98
+rect -30 85 -16 89
+rect 28 86 32 87
+rect -2 79 3 82
+rect -30 74 -9 79
+rect -2 71 3 74
+rect 18 79 23 82
+rect 86 74 90 79
+rect 147 74 152 79
+rect 18 71 23 74
+rect 87 70 97 74
+rect -13 55 -11 59
+rect -7 55 -2 59
+rect 3 55 9 59
+rect 13 55 18 59
+rect 23 55 36 59
+rect 86 55 97 59
+rect 126 55 130 59
+rect 49 46 53 55
+rect -30 42 -25 46
+rect 25 42 36 46
+rect 86 42 97 46
+rect 126 42 130 46
+rect -30 27 -25 31
+rect 25 22 29 27
+rect 86 22 92 27
+rect 147 22 152 27
+rect -30 18 -25 22
+rect 26 18 36 22
+rect 87 18 97 22
+rect 25 3 36 7
+rect 86 3 97 7
+<< metal2 >>
+rect -16 89 32 93
+rect 28 86 32 89
+rect 36 83 40 98
+rect -2 31 3 74
+rect 18 52 23 74
+rect 53 72 57 98
+rect 97 52 101 79
+rect 18 48 101 52
+rect 97 31 101 48
+rect -2 27 36 31
+rect 111 7 115 94
+<< ntransistor >>
+rect -2 62 3 65
+rect 18 62 23 65
+<< ptransistor >>
+rect -2 88 3 91
+rect 18 88 23 91
+<< polycontact >>
+rect -9 74 -5 79
+rect 28 87 32 91
+<< ndcontact >>
+rect -2 67 3 71
+rect 18 67 23 71
+rect -2 55 3 59
+rect 18 55 23 59
+<< pdcontact >>
+rect -2 94 3 98
+rect 18 94 23 98
+rect -2 82 3 86
+rect 18 82 23 86
+<< m2contact >>
+rect 111 94 115 98
+rect -16 85 -12 89
+rect -2 74 3 79
+rect 28 82 32 86
+rect 36 79 40 83
+rect 97 79 101 83
+rect 18 74 23 79
+rect 53 68 57 72
+rect 36 27 40 31
+rect 97 27 101 31
+rect 111 3 115 7
+<< psubstratepcontact >>
+rect -11 55 -7 59
+rect 9 55 13 59
+<< nsubstratencontact >>
+rect -11 94 -7 98
+rect 9 94 13 98
+use ../cells/and  and_2
+timestamp 1428029823
+transform 1 0 61 0 1 74
+box -25 -19 25 24
+use ../cells/and  and_0
+timestamp 1428029823
+transform 1 0 122 0 1 74
+box -25 -19 25 24
+use ../cells/or  or_1
+timestamp 1428530478
+transform 1 0 0 0 -1 27
+box -25 -19 25 24
+use ../cells/or  or_0
+timestamp 1428530478
+transform 1 0 61 0 -1 27
+box -25 -19 25 24
+use ../cells/and  and_1
+timestamp 1428029823
+transform 1 0 122 0 -1 27
+box -25 -19 25 24
+<< labels >>
+rlabel metal1 150 77 150 77 7 n1
+rlabel metal1 150 25 150 25 7 n0
+rlabel metal1 -29 96 -29 96 4 Vdd
+rlabel metal1 -29 44 -29 44 3 Gnd
+rlabel metal1 -29 77 -29 77 3 sign
+rlabel metal1 -29 87 -29 87 3 start
+rlabel metal1 -29 29 -29 29 3 c0b
+rlabel metal1 -29 20 -29 20 3 c1
+rlabel metal2 55 92 55 92 1 c0
+rlabel metal2 38 92 38 92 1 c1b
+<< end >>

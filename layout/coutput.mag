@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1428541776
+<< polysilicon >>
+rect 5 146 9 151
+rect 22 100 26 103
+rect 22 97 57 100
+rect 53 79 57 97
+rect 5 48 9 51
+rect 5 41 9 44
+rect 22 -58 26 -54
+<< metal1 >>
+rect -28 199 0 203
+rect -28 184 -24 188
+rect -20 184 0 188
+rect 54 179 57 184
+rect -28 175 -8 179
+rect -4 175 0 179
+rect -28 160 0 164
+rect 9 151 16 156
+rect 34 146 38 160
+rect 55 151 57 156
+rect 50 122 57 127
+rect 0 94 4 103
+rect -28 75 -16 79
+rect -12 75 0 79
+rect 43 70 57 75
+rect -28 44 5 48
+rect 29 41 33 51
+rect 14 22 18 26
+rect -4 13 0 17
+rect 29 -11 33 -2
+rect 50 -35 57 -30
+rect -20 -39 0 -35
+rect -12 -62 22 -58
+<< metal2 >>
+rect -24 -35 -20 184
+rect -16 -58 -12 75
+rect -8 17 -4 175
+rect 0 107 4 199
+rect 16 192 54 196
+rect 16 156 21 192
+rect 50 184 54 192
+rect 29 156 33 179
+rect 29 151 50 156
+rect 0 2 4 90
+rect 14 55 18 142
+rect 14 -50 18 37
+rect 29 31 53 35
+rect 29 22 33 31
+<< polycontact >>
+rect 5 151 9 156
+rect 53 75 57 79
+rect 5 44 9 48
+rect 22 -62 26 -58
+<< m2contact >>
+rect 0 199 4 203
+rect -24 184 -20 188
+rect 29 179 33 183
+rect 50 179 54 184
+rect -8 175 -4 179
+rect 16 151 21 156
+rect 50 151 55 156
+rect 14 142 18 146
+rect 0 103 4 107
+rect 0 90 4 94
+rect -16 75 -12 79
+rect 14 51 18 55
+rect 14 37 18 41
+rect 53 31 57 35
+rect 29 18 33 22
+rect -8 13 -4 17
+rect 0 -2 4 2
+rect -24 -39 -20 -35
+rect 14 -54 18 -50
+rect -16 -62 -12 -58
+use ../cells/and  and_3
+timestamp 1428029823
+transform 1 0 25 0 -1 184
+box -25 -19 25 24
+use ../cells/or  or_0
+timestamp 1428530478
+transform 1 0 25 0 1 122
+box -25 -19 25 24
+use ../cells/and  and_0
+timestamp 1428029823
+transform 1 0 25 0 -1 75
+box -25 -19 25 24
+use ../cells/and  and_2
+timestamp 1428029823
+transform 1 0 25 0 1 17
+box -25 -19 25 24
+use ../cells/and  and_1
+timestamp 1428029823
+transform 1 0 25 0 -1 -30
+box -25 -19 25 24
+<< labels >>
+rlabel m2contact 56 33 56 33 7 shift
+rlabel metal1 56 -32 56 -32 7 add
+rlabel metal1 56 73 56 73 7 inbit
+rlabel metal1 56 125 56 125 7 sel1
+rlabel metal1 56 182 56 182 6 load
+rlabel metal1 56 154 56 154 6 sel2
+rlabel metal1 -20 46 -20 46 3 c0
+rlabel metal1 -20 77 -20 77 3 c1
+rlabel metal1 -20 177 -20 177 3 c1b
+rlabel metal1 -20 186 -20 186 3 c0b
+rlabel metal1 -27 201 -27 201 4 Gnd
+rlabel metal1 -27 162 -27 162 3 Vdd
+<< end >>

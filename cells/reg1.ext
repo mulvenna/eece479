@@ -1,0 +1,161 @@
+timestamp 1428701549
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use not not_3 1 0 92 0 1 67
+use not not_0 1 0 -38 0 1 20
+use trans trans_0 1 0 -15 0 1 35
+use nor nor_0 1 0 28 0 1 23
+use trans trans_1 1 0 61 0 1 34
+use not not_1 1 0 92 0 1 19
+use not not_2 1 0 115 0 1 19
+use trans trans_3 -1 0 16 0 -1 -20
+use not not_4 -1 0 43 0 -1 -7
+use trans trans_2 -1 0 91 0 -1 -25
+use nor nor_1 -1 0 114 0 -1 -14
+node "m1_98_n23#" 0 564 98 -23 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_23_n18#" 0 752 23 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "q" 0 2256 127 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "m1_n25_29#" 0 564 -25 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "qb" 0 2256 101 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 38 0 0 0 0
+node "a_38_n20#" 25 2794 38 -20 pc 0 0 0 0 16 16 0 0 0 0 0 0 205 142 0 0 0 0
+node "a_117_28#" 141 9654 117 28 pc 0 0 0 0 32 32 0 0 0 0 0 0 414 234 0 0 0 0
+node "reset" 1109 0 35 -2 p 0 0 0 0 186 190 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_16_29#" 25 4827 16 29 pc 0 0 0 0 16 16 0 0 0 0 0 0 217 150 0 0 0 0
+node "a_n30_n35#" 3400 13563 -30 -35 ndiff 35 24 75 40 604 572 0 0 0 0 0 0 245 154 0 0 0 0
+node "d" 24 2571 -37 29 pc 0 0 0 0 16 16 0 0 0 0 0 0 37 30 0 0 0 0
+node "clk" 3507 10124 -44 -24 p 0 0 0 0 740 664 0 0 0 0 0 0 136 100 0 0 0 0
+node "a_94_28#" 141 15128 94 28 pc 0 0 0 0 32 32 0 0 0 0 0 0 551 294 0 0 0 0
+node "Gnd" 633 7862 -48 -45 pw 35 24 48 48 0 0 0 0 0 0 0 0 839 568 674 448 0 0
+node "Vdd" 56203 1520 -47 -19 nw 76 60 75 40 0 0 0 0 0 0 0 0 1881 868 815 440 11172 1042
+cap "Vdd" "d" 320
+cap "a_n30_n35#" "clk" 180
+cap "a_94_28#" "Vdd" 6311
+cap "a_n30_n35#" "Vdd" 42336
+cap "a_38_n20#" "reset" 180
+cap "a_94_28#" "Gnd" 7109
+cap "clk" "Vdd" 41234
+cap "a_n30_n35#" "Gnd" 21815
+cap "clk" "Gnd" 30181
+cap "Vdd" "Gnd" 8544
+cap "Vdd" "a_117_28#" 640
+cap "reset" "a_94_28#" 180
+cap "m1_23_n18#" "Gnd" 752
+cap "Gnd" "a_117_28#" 12548
+cap "a_n30_n35#" "reset" 180
+cap "a_38_n20#" "clk" 180
+cap "a_38_n20#" "Vdd" 636
+cap "clk" "reset" 180
+cap "clk" "a_16_29#" 360
+cap "a_16_29#" "Vdd" 320
+cap "q" "Gnd" 540
+cap "a_38_n20#" "Gnd" 7198
+cap "reset" "Gnd" 22928
+cap "a_n30_n35#" "a_94_28#" 690
+cap "a_16_29#" "Gnd" 6045
+device mosfet nfet -32 -35 -31 -34 2 7 "Gnd" "clk" 4 0 "Gnd" 7 0 "a_n30_n35#" 7 0
+device mosfet pfet -32 -18 -31 -17 2 15 "Vdd" "clk" 4 0 "Vdd" 15 0 "a_n30_n35#" 15 0
+cap "not_0/a_0_0#" "not_0/a_8_0#" 752
+cap "not_0/a_0_16#" "Vdd" 188
+cap "not_0/a_0_0#" "nor_0/a_7_n7#" 546
+cap "nor_0/a_n6_n5#" "Vdd" 940
+cap "not_0/a_0_0#" "trans_3/a_n4_n13#" 1880
+cap "trans_0/a_3_n12#" "Vdd" 376
+cap "not_4/a_5_n2#" "not_0/a_0_0#" 936
+cap "trans_0/a_1_n1#" "not_0/a_0_0#" 312
+cap "not_0/a_0_0#" "not_0/a_5_n2#" 585
+cap "Vdd" "Vdd" -456
+cap "trans_0/a_3_n12#" "Vdd" 1110
+cap "not_0/a_8_0#" "Vdd" 1128
+cap "Vdd" "trans_3/a_n4_n13#" 1128
+cap "not_4/a_5_n2#" "Vdd" 702
+cap "not_0/a_0_0#" "trans_0/a_1_n14#" 234
+cap "nor_0/a_7_n7#" "Vdd" 546
+cap "not_0/a_0_0#" "nor_0/a_n6_n5#" 940
+cap "nor_0/a_n13_15#" "Vdd" 188
+cap "trans_0/a_1_n1#" "Vdd" 234
+cap "Vdd" "trans_0/a_3_n12#" 1998
+cap "not_0/a_5_n2#" "Vdd" 585
+cap "Vdd" "not_0/a_0_0#" -247
+cap "not_4/a_0_16#" "Vdd" 376
+cap "not_0/a_0_0#" "trans_0/a_3_n12#" 1627
+cap "trans_0/a_1_n14#" "Vdd" 234
+cap "Vdd" "nor_1/a_7_n7#" 546
+cap "Gnd" "trans_1/a_1_n1#" 234
+cap "Vdd" "not_1/a_0_16#" 376
+cap "not_1/a_8_0#" "Gnd" 1454
+cap "Gnd" "nor_1/a_n8_n7#" 468
+cap "Vdd" "trans_1/a_1_n1#" 234
+cap "Vdd" "not_2/a_0_16#" 376
+cap "Vdd" "nor_1/a_n8_n7#" 546
+cap "not_1/a_8_0#" "Vdd" 1149
+cap "Gnd" "trans_1/a_1_n14#" 312
+cap "not_2/a_8_0#" "Gnd" 752
+cap "trans_2/a_n4_n13#" "trans_1/a_1_n1#" 240
+cap "Vdd" "trans_1/a_1_n14#" 234
+cap "trans_1/a_n4_n13#" "Gnd" 376
+cap "trans_1/a_3_n12#" "Gnd" 1266
+cap "Vdd" "trans_1/a_3_n12#" 376
+cap "trans_2/a_n4_n13#" "Gnd" 940
+cap "Vdd" "not_2/a_8_0#" 564
+cap "Vdd" "trans_2/a_n4_n13#" 1316
+cap "nor_1/a_n13_15#" "Vdd" 376
+cap "Vdd" "trans_1/a_n4_n13#" 376
+cap "not_1/a_0_0#" "Gnd" 940
+cap "trans_1/a_3_n12#" "Vdd" 961
+cap "Gnd" "nor_1/a_7_n7#" 468
+cap "not_3/a_5_n2#" "Gnd" 819
+cap "not_3/a_8_0#" "Gnd" 940
+cap "not_3/a_0_0#" "Gnd" 376
+cap "not_3/a_5_n2#" "Vdd" 663
+cap "Vdd" "not_3/a_8_0#" 752
+merge "nor_1/a_n8_n7#" "not_2/a_5_n2#" -5529 0 0 0 0 -8 -20 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "not_2/a_5_n2#" "not_1/a_8_0#"
+merge "not_1/a_8_0#" "a_117_28#"
+merge "not_4/a_8_0#" "trans_3/a_n4_n13#" -3196 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
+merge "trans_3/a_n4_n13#" "m1_23_n18#"
+merge "trans_3/a_3_n12#" "nor_0/a_n8_n7#" -3753 0 0 0 0 0 -8 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "nor_0/a_n8_n7#" "trans_0/a_3_n12#"
+merge "trans_0/a_3_n12#" "a_16_29#"
+merge "nor_1/a_7_n7#" "nor_0/a_7_n7#" -2746 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nor_0/a_7_n7#" "reset"
+merge "trans_2/a_1_n14#" "trans_1/a_1_n1#" -2692 0 0 0 0 -4 -20 0 0 0 0 0 0 0 0 0 0 0 0
+merge "trans_1/a_1_n1#" "trans_3/a_1_n1#"
+merge "trans_3/a_1_n1#" "trans_0/a_1_n14#"
+merge "trans_0/a_1_n14#" "a_n30_n35#"
+merge "not_3/a_8_0#" "qb" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "not_3/a_0_0#" "nor_1/a_n13_n5#" -3384 -30 -22 0 0 0 0 0 0 0 0 0 0 -43 -92 0 0 0 0
+merge "nor_1/a_n13_n5#" "nor_1/a_9_n5#"
+merge "nor_1/a_9_n5#" "not_2/a_0_0#"
+merge "not_2/a_0_0#" "not_1/a_0_0#"
+merge "not_1/a_0_0#" "not_4/a_0_0#"
+merge "not_4/a_0_0#" "nor_0/a_9_n5#"
+merge "nor_0/a_9_n5#" "nor_0/a_n13_n5#"
+merge "nor_0/a_n13_n5#" "not_0/a_0_0#"
+merge "not_0/a_0_0#" "Gnd"
+merge "trans_1/a_n4_n13#" "not_4/a_5_n2#" -4910 0 0 0 0 0 -8 0 0 0 0 0 0 0 -12 0 0 0 0
+merge "not_4/a_5_n2#" "nor_0/a_n6_n5#"
+merge "nor_0/a_n6_n5#" "a_38_n20#"
+merge "not_3/a_5_n2#" "trans_2/a_3_n12#" -5997 0 0 0 0 -8 -20 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "trans_2/a_3_n12#" "not_1/a_5_n2#"
+merge "not_1/a_5_n2#" "trans_1/a_3_n12#"
+merge "trans_1/a_3_n12#" "a_94_28#"
+merge "trans_2/a_1_n1#" "trans_1/a_1_n14#" -2848 0 0 0 0 -4 -20 0 0 0 0 0 0 0 0 0 0 0 0
+merge "trans_1/a_1_n14#" "trans_3/a_1_n14#"
+merge "trans_3/a_1_n14#" "trans_0/a_1_n1#"
+merge "trans_0/a_1_n1#" "clk"
+merge "not_3/a_0_16#" "nor_1/a_n13_15#" -3943 0 0 -75 -40 0 0 0 0 0 0 0 0 -96 -108 -357 -226 -4945 -826
+merge "nor_1/a_n13_15#" "not_2/a_0_16#"
+merge "not_2/a_0_16#" "not_1/a_0_16#"
+merge "not_1/a_0_16#" "not_4/a_0_16#"
+merge "not_4/a_0_16#" "nor_0/a_n13_15#"
+merge "nor_0/a_n13_15#" "not_0/a_0_16#"
+merge "not_0/a_0_16#" "Vdd"
+merge "not_0/a_5_n2#" "d" -1810 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "trans_0/a_n4_n13#" "not_0/a_8_0#" -1880 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "not_0/a_8_0#" "m1_n25_29#"
+merge "nor_1/a_n6_n5#" "trans_2/a_n4_n13#" -2961 0 0 0 0 0 0 0 0 0 0 0 0 -7 -20 0 0 0 0
+merge "trans_2/a_n4_n13#" "m1_98_n23#"
+merge "not_2/a_8_0#" "q" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0

@@ -1,0 +1,70 @@
+magic
+tech scmos
+timestamp 1428629188
+<< polysilicon >>
+rect 798 88 803 91
+rect 47 86 59 88
+rect 446 83 452 85
+rect 791 76 796 79
+rect -17 56 -8 58
+rect 379 57 385 59
+rect 732 58 737 61
+rect 26 25 28 44
+rect 419 25 421 45
+rect 770 25 772 47
+rect 26 23 772 25
+rect 26 22 28 23
+<< metal1 >>
+rect 229 116 400 119
+rect 603 118 774 121
+rect 52 77 56 98
+rect 243 75 256 78
+rect 636 76 641 79
+rect 647 57 651 102
+rect 987 78 1000 81
+rect 239 53 280 56
+rect 632 54 651 57
+rect 983 56 993 59
+rect 222 30 393 33
+rect 607 30 778 33
+<< metal2 >>
+rect 449 105 647 106
+rect 445 104 647 105
+rect 56 102 647 104
+rect 56 101 449 102
+rect 56 99 280 101
+rect 445 19 449 65
+rect 993 19 997 56
+rect 445 16 997 19
+rect 445 15 449 16
+<< m2contact >>
+rect 52 98 56 104
+rect 647 102 652 106
+rect 445 65 449 69
+rect 993 56 997 60
+use addsub1  addsub1_0
+timestamp 1427948043
+transform 1 0 94 0 1 59
+box -113 -34 149 63
+use addsub1  addsub1_1
+timestamp 1427948043
+transform 1 0 487 0 1 60
+box -113 -34 149 63
+use addsub1  addsub1_2
+timestamp 1427948043
+transform 1 0 838 0 1 62
+box -113 -34 149 63
+<< labels >>
+rlabel metal1 997 80 997 80 7 z0
+rlabel polysilicon 799 90 799 90 1 a0
+rlabel polysilicon 734 59 734 59 1 b0
+rlabel metal1 639 77 639 77 1 z1
+rlabel polysilicon 447 84 447 84 1 a1
+rlabel polysilicon 380 58 380 58 1 b1
+rlabel metal1 249 77 249 77 1 z2
+rlabel polysilicon 48 87 48 87 1 a2
+rlabel polysilicon -15 57 -15 57 3 b2
+rlabel metal1 712 119 712 119 1 Vdd
+rlabel metal1 678 32 678 32 1 Gnd
+rlabel polysilicon 312 24 312 24 1 add
+<< end >>

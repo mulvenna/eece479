@@ -1,0 +1,188 @@
+timestamp 1428795880
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use cvalid cvalid_0 1 0 73 0 1 -507
+use cnext cnext_0 1 0 996 0 1 -174
+use ../cells/reg1 reg1_0 0 1 959 -1 0 -261
+use ../cells/reg1 reg1_1 0 -1 1136 1 0 -351
+use coutput coutput_0 0 1 977 -1 0 -459
+node "m2_1117_n218#" 0 228 1117 -218 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "valid" 0 423 889 -566 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "load" 0 940 1156 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "sel2" 0 940 1128 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "sel1" 0 940 1099 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "inbit" 0 940 1047 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "shift" 0 752 1008 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "add" 0 940 942 -520 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Gnd" 1 6884 1168 -404 v 0 0 0 0 0 0 0 0 0 0 0 0 140 86 48 32 0 0
+node "c0b" 1 8789 1035 -439 v 0 0 0 0 0 0 0 0 0 0 0 0 187 130 16 16 0 0
+node "c0" 1 11292 987 -431 v 0 0 0 0 0 0 0 0 0 0 0 0 140 86 280 156 0 0
+node "m1_975_n459#" 1 12220 975 -459 m1 0 0 0 0 0 0 0 0 0 0 0 0 260 138 16 16 0 0
+node "Vdd" 1 13348 923 -459 m1 0 0 0 0 0 0 0 0 0 0 0 0 284 150 0 0 0 0
+node "m1_1053_n363#" 0 2120 1053 -363 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 104 60 0 0
+node "c1" 3 28788 1052 -431 m1 0 0 0 0 0 0 0 0 0 0 0 0 260 162 984 518 0 0
+node "m1_1014_n223#" 1 12220 1014 -223 m1 0 0 0 0 0 0 0 0 0 0 0 0 260 114 0 0 0 0
+node "m1_923_n212#" 0 2918 923 -212 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 130 92 0 0
+node "n0" 2 23775 988 -217 m1 0 0 0 0 0 0 0 0 0 0 0 0 273 164 656 336 0 0
+node "m1_966_n156#" 0 1512 966 -156 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 56 44 0 0
+node "m1_944_n260#" 3 33912 944 -260 v 0 0 0 0 0 0 0 0 0 0 0 0 348 198 1004 526 0 0
+node "m1_1117_n132#" 0 752 1117 -132 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_1083_n132#" 1 12610 1083 -132 m1 0 0 0 0 0 0 0 0 0 0 0 0 202 118 212 122 0 0
+node "n1" 1 2796 1104 -399 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 100 66 0 0
+node "sign" 0 1175 961 -100 m1 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0
+node "m1_866_n80#" 1 8192 866 -80 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 416 216 0 0
+node "c1b" 7 80466 936 -180 v 0 0 0 0 0 0 0 0 0 0 0 0 1306 706 1192 628 0 0
+node "a_884_n370#" 429 26816 884 -370 pc 0 0 0 0 80 80 0 0 0 0 0 0 384 200 0 0 0 0
+node "clk" 447 24340 1010 -306 p 0 0 0 0 300 158 0 0 0 0 0 0 0 0 0 0 0 0
+node "reset" 142 30392 967 -296 pc 0 0 0 0 36 34 0 0 0 0 0 0 164 108 1180 606 0 0
+node "a_903_n233#" 213 18636 903 -233 pc 0 0 0 0 44 44 0 0 0 0 0 0 272 144 88 52 0 0
+node "start" 325 68276 762 29 p 0 0 0 0 216 116 0 0 0 0 0 0 1092 554 16 16 0 0
+cap "m1_1083_n132#" "n0" 720
+cap "n0" "c1b" 540
+cap "reset" "n0" 540
+cap "m1_1053_n363#" "c1b" 720
+cap "m1_944_n260#" "c1b" 720
+cap "m1_1014_n223#" "c1b" 900
+cap "m1_1014_n223#" "reset" 900
+cap "clk" "c1b" 480
+cap "m1_866_n80#" "start" 720
+cap "c1b" "start" 720
+cap "m1_866_n80#" "c1b" 720
+cap "m1_1014_n223#" "n0" 900
+cap "reset" "m1_1083_n132#" 720
+cap "reset" "c1b" 540
+cap "c1b" "c1" 720
+cap "reg1_0/Vdd" "reg1_0/nor_1/a_n13_15#" 1692
+cap "coutput_0/c1" "reg1_0/nor_1/a_n13_15#" 720
+cap "coutput_0/c0b" "reg1_0/Gnd" 760
+cap "reg1_0/a_117_28#" "coutput_0/c0b" 720
+cap "coutput_0/and_2/Gnd" "c0b" 720
+cap "coutput_0/and_2/Gnd" "coutput_0/c1" 720
+cap "reg1_0/Gnd" "coutput_0/and_2/Gnd" 1088
+cap "coutput_0/c1b" "c0b" 720
+cap "reg1_1/Gnd" "c1" 1312
+cap "m1_944_n260#" "reg1_0/reset" 76
+cap "m1_944_n260#" "reg1_0/not_4/a_5_n2#" 768
+cap "reg1_0/Vdd" "reg1_0/nor_1/a_n13_15#" -282
+cap "m1_944_n260#" "reg1_0/Gnd" 4313
+cap "m1_944_n260#" "reg1_0/trans_2/a_3_n12#" 1124
+cap "m1_944_n260#" "reg1_0/nor_1/a_n13_n5#" 808
+cap "m1_944_n260#" "reg1_0/nor_1/a_n6_n5#" 1700
+cap "m1_944_n260#" "reg1_0/clk" 720
+cap "reg1_0/nor_1/a_n13_15#" "reg1_0/reset" 180
+cap "reg1_0/reset" "reg1_0/Gnd" 1517
+cap "m1_944_n260#" "reg1_0/not_4/a_8_0#" 855
+cap "m1_944_n260#" "reg1_0/a_n30_n35#" 228
+cap "m1_944_n260#" "reg1_0/nor_1/a_n8_n7#" 76
+cap "reg1_0/Vdd" "reg1_0/reset" 546
+cap "reg1_0/clk" "reg1_1/Vdd" 624
+cap "reg1_0/clk" "reg1_0/Vdd" 840
+cap "c1b" "reg1_1/Vdd" 1208
+cap "reg1_0/Vdd" "reg1_0/Vdd" -1088
+cap "reg1_0/Gnd" "reset" 141
+cap "reg1_0/Vdd" "reg1_1/Vdd" 304
+cap "reg1_0/Vdd" "reg1_0/clk" 2184
+cap "reg1_1/nor_0/a_7_n7#" "c1" 38
+cap "reg1_1/Vdd" "reg1_1/Gnd" -228
+cap "c1" "reg1_1/nor_0/a_n8_n7#" 3527
+cap "c1" "reg1_1/clk" 76
+cap "reg1_1/trans_0/a_1_n14#" "c1" 240
+cap "reg1_1/nor_0/a_n6_n5#" "c1" 5085
+cap "reg1_1/Vdd" "c1" 540
+cap "reg1_1/not_0/a_0_0#" "c1" 360
+cap "reg1_1/Vdd" "reg1_1/clk" 2400
+cap "reg1_1/Gnd" "c1" 5132
+cap "m1_944_n260#" "reg1_0/trans_3/a_3_n12#" 1395
+cap "cvalid_0/Gnd" "reg1_0/Vdd" -399
+cap "m1_944_n260#" "reg1_0/a_n30_n35#" 1048
+cap "cvalid_0/Gnd" "reset" 6029
+cap "m1_944_n260#" "reg1_0/clk" 76
+cap "m1_944_n260#" "reg1_0/Vdd" 4148
+cap "reg1_0/trans_3/a_3_n12#" "reset" 405
+cap "m1_944_n260#" "reg1_0/trans_3/a_n4_n13#" 1035
+cap "reg1_0/a_n30_n35#" "reset" 180
+cap "reg1_0/clk" "reset" 114
+cap "m1_944_n260#" "cvalid_0/Gnd" 3822
+cap "reg1_0/Vdd" "reset" 405
+cap "reg1_0/clk" "cvalid_0/Gnd" 546
+cap "reg1_0/Vdd" "reset" 135
+cap "reset" "reg1_0/a_n30_n35#" 60
+cap "reset" "reg1_0/clk" 38
+cap "reg1_1/Gnd" "reg1_1/qb" 625
+cap "reg1_1/not_3/a_5_n2#" "reg1_1/qb" 3096
+cap "reset" "reg1_0/not_0/a_0_0#" 135
+cap "reset" "reg1_0/nor_0/a_n13_n5#" 135
+cap "reset" "reg1_0/Gnd" 1691
+cap "reset" "reg1_0/nor_0/a_n8_n7#" 135
+cap "reg1_1/qb" "reg1_1/not_3/a_0_16#" 900
+cap "reg1_0/Vdd" "reg1_0/Gnd" -57
+cap "reg1_1/qb" "reg1_1/Vdd" 760
+cap "reg1_1/not_2/a_5_n2#" "reg1_1/q" 3752
+cap "reg1_1/reset" "reg1_1/nor_1/a_n6_n5#" 848
+cap "reg1_1/not_1/a_0_0#" "reg1_1/Vdd" 712
+cap "reg1_1/nor_1/a_n8_n7#" "reg1_1/reset" 76
+cap "reg1_1/not_1/a_0_0#" "reg1_1/reset" 404
+cap "reg1_1/Gnd" "reg1_1/reset" 3352
+cap "reg1_1/not_2/a_5_n2#" "reg1_1/reset" 720
+cap "reg1_1/not_1/a_5_n2#" "reg1_1/q" 6092
+cap "cnext_0/and_2/Gnd" "cnext_0/and_2/b" 228
+cap "cnext_0/and_1/a" "cnext_0/and_1/Gnd" 1395
+cap "cnext_0/and_1/Vdd" "cnext_0/and_1/Gnd" 720
+cap "cvalid_0/cvbit_4/addsub1_0/Vdd" "cvalid_0/cvbit_4/addsub1_0/Vdd" 188
+merge "reg1_1/clk" "reg1_0/clk" -1094 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 -12 -14 0 0
+merge "reg1_0/clk" "clk"
+merge "clk" "cvalid_0/clk"
+merge "cvalid_0/clk" "a_903_n233#"
+merge "cnext_0/and_1/Gnd" "coutput_0/Gnd" -2679 0 0 0 0 0 0 0 0 0 0 0 0 -38 -36 0 0 0 0
+merge "coutput_0/Gnd" "reg1_0/Gnd"
+merge "reg1_0/Gnd" "m1_975_n459#"
+merge "m1_975_n459#" "reg1_1/Gnd"
+merge "reg1_1/Gnd" "Gnd"
+merge "Gnd" "cvalid_0/Gnd"
+merge "cvalid_0/Gnd" "m1_923_n212#"
+merge "m1_923_n212#" "m1_1083_n132#"
+merge "m1_1083_n132#" "m2_1117_n218#"
+merge "m2_1117_n218#" "m1_1117_n132#"
+merge "cnext_0/c0b" "reg1_0/qb" -23447 0 0 0 0 0 0 0 0 0 0 0 0 -173 -129 -416 -216 0 0
+merge "reg1_0/qb" "coutput_0/c0b"
+merge "coutput_0/c0b" "m1_944_n260#"
+merge "m1_944_n260#" "c0b"
+merge "cnext_0/n1" "reg1_1/d" -95 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 -5 -11 0 0
+merge "reg1_1/d" "n1"
+merge "cvalid_0/start" "cnext_0/start" -11984 0 0 0 0 -43 -93 0 0 0 0 0 0 -65 -133 0 0 0 0
+merge "cnext_0/start" "start"
+merge "cnext_0/c0" "coutput_0/c0" -2052 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -108 -62 0 0
+merge "coutput_0/c0" "reg1_0/q"
+merge "reg1_0/q" "c0"
+merge "cnext_0/c1b" "reg1_1/qb" -37739 0 0 0 0 0 0 0 0 0 0 0 0 -724 -382 -60 -50 0 0
+merge "reg1_1/qb" "coutput_0/c1b"
+merge "coutput_0/c1b" "c1b"
+merge "cnext_0/n0" "reg1_0/d" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "reg1_0/d" "n0"
+merge "cnext_0/c1" "reg1_1/q" -19304 0 0 0 0 0 0 0 0 0 0 0 0 -152 -116 -444 -236 0 0
+merge "reg1_1/q" "coutput_0/c1"
+merge "coutput_0/c1" "m1_966_n156#"
+merge "m1_966_n156#" "c1"
+merge "coutput_0/and_1/Vdd" "reg1_0/nor_1/a_n13_15#" -1692 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "reg1_0/nor_1/a_n13_15#" "Vdd"
+merge "reg1_1/reset" "reg1_0/reset" -16746 0 0 0 0 0 -20 0 0 0 0 0 0 -89 -68 -275 -152 0 0
+merge "reg1_0/reset" "reset"
+merge "reset" "cvalid_0/cvbit_4/reset"
+merge "cvalid_0/cvbit_4/reset" "a_884_n370#"
+merge "coutput_0/inbit" "inbit" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "coutput_0/shift" "shift" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "cnext_0/or_0/Vdd" "reg1_1/Vdd" -3525 0 0 0 0 0 0 0 0 0 0 0 0 -75 -50 0 0 0 0
+merge "reg1_1/Vdd" "reg1_0/Vdd"
+merge "reg1_0/Vdd" "m1_1053_n363#"
+merge "m1_1053_n363#" "m1_1014_n223#"
+merge "cnext_0/Vdd" "cvalid_0/cvbit_4/addsub1_0/Vdd" -1732 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -28 -18 0 0
+merge "cvalid_0/cvbit_4/addsub1_0/Vdd" "m1_866_n80#"
+merge "cnext_0/sign" "sign" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "cvalid_0/valid" "valid" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "coutput_0/load" "load" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "coutput_0/sel1" "sel1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "coutput_0/sel2" "sel2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "coutput_0/add" "add" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0

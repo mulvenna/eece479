@@ -1,0 +1,177 @@
+timestamp 1428796011
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use controller controller_0 1 0 2841 0 1 1062
+use datapath datapath_0 1 0 22 0 1 -38
+node "quotient_0" 0 2820 3932 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 38 0 0 0 0
+node "quotient_1" 0 2820 3760 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 38 0 0 0 0
+node "quotient_2" 0 1316 3588 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "quotient_3" 0 2820 3416 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 38 0 0 0 0
+node "quotient_4" 0 1316 3244 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "quotient_5" 0 1504 3072 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "quotient_6" 0 1692 2900 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "quotient_7" 0 1504 2728 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "remainder_0" 0 1316 2153 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "remainder_1" 0 1128 1827 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "remainder_2" 0 940 1501 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "remainder_3" 0 1504 1175 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "remainder_4" 0 1316 849 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "remainder_5" 0 1504 523 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "remainder_6" 0 1504 197 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "dividendin_0" 3 37764 4029 377 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_1" 3 37764 4029 385 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_2" 3 37764 4029 393 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_3" 3 37764 4029 401 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_4" 3 37764 4029 409 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_5" 3 37764 4029 417 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_6" 3 37764 4029 425 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "dividendin_7" 3 37764 4029 433 v 0 0 0 0 0 0 0 0 0 0 0 0 784 400 88 52 0 0
+node "m1_3969_524#" 5 84435 3969 524 m1 0 0 0 0 0 0 0 0 0 0 0 0 1568 668 737 494 0 0
+node "m1_3940_512#" 7 60013 3940 512 m1 0 0 0 0 0 0 0 0 0 0 0 0 1126 684 542 364 0 0
+node "m1_3888_502#" 6 93179 3888 502 m1 0 0 0 0 0 0 0 0 0 0 0 0 1769 734 722 484 0 0
+node "valid" 6 86267 3733 496 m1 0 0 0 0 0 0 0 0 0 0 0 0 1761 906 256 136 0 0
+node "m1_2719_752#" 2 31080 2719 752 m1 0 0 0 0 0 0 0 0 0 0 0 0 559 286 308 156 0 0
+node "Gnd" 3 70312 2682 734 m1 0 0 0 0 0 0 0 0 0 0 0 0 1511 624 0 0 0 0
+equiv "Gnd" "Gnd"
+node "Vdd" 3 42602 2686 787 m1 0 0 0 0 0 0 0 0 0 0 0 0 631 284 801 366 0 0
+node "start" 3 91526 3797 1022 m1 0 0 0 0 0 0 0 0 0 0 0 0 1533 452 1101 448 0 0
+node "m1_2699_772#" 16 279029 2699 772 m1 0 0 0 0 0 0 0 0 0 0 0 0 2663 1324 8291 3280 0 0
+node "m1_2764_1062#" 17 391557 2764 1062 v 0 0 0 0 0 0 0 0 0 0 0 0 6659 2848 4587 1308 0 0
+node "divisorin_0" 4 58656 2358 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_1" 4 58656 2032 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_2" 4 58656 1706 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_3" 4 58656 1380 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_4" 4 58656 1053 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_5" 4 58656 729 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "divisorin_6" 4 58656 402 824 m1 0 0 0 0 0 0 0 0 0 0 0 0 1248 636 0 0 0 0
+node "a_3849_495#" 8001 181864 3849 495 pc 0 0 0 0 1524 1434 0 0 0 0 0 0 188 102 0 0 0 0
+node "a_2710_560#" 1457 71640 2710 560 pc 0 0 0 0 561 376 0 0 0 0 0 0 169 70 756 384 0 0
+node "a_2439_454#" 9204 489285 2439 454 p 0 0 0 0 5865 3016 0 0 0 0 0 0 440 186 0 0 0 0
+node "reset" 495 94347 2709 801 pc 0 0 0 0 198 134 0 0 0 0 0 0 1645 668 0 0 0 0
+node "clk" 106 82311 2659 802 pc 0 0 0 0 74 44 0 0 0 0 0 0 1645 668 0 0 0 0
+cap "Vdd" "m1_2719_752#" 900
+cap "Gnd" "m1_2764_1062#" 1575
+cap "dividendin_4" "m1_3888_502#" 540
+cap "m1_3888_502#" "dividendin_3" 540
+cap "valid" "a_2439_454#" 900
+cap "m1_3888_502#" "dividendin_5" 540
+cap "m1_3888_502#" "valid" 540
+cap "dividendin_2" "m1_3940_512#" 540
+cap "a_3849_495#" "dividendin_2" 240
+cap "Gnd" "Vdd" 1125
+cap "Gnd" "a_2710_560#" 450
+cap "m1_3969_524#" "dividendin_2" 540
+cap "Gnd" "m1_2719_752#" 900
+cap "dividendin_0" "m1_3940_512#" 540
+cap "a_3849_495#" "dividendin_0" 240
+cap "a_3849_495#" "m1_3940_512#" 240
+cap "m1_3888_502#" "dividendin_7" 540
+cap "m1_3940_512#" "dividendin_1" 540
+cap "m1_3888_502#" "dividendin_6" 540
+cap "a_3849_495#" "dividendin_1" 240
+cap "dividendin_0" "m1_3969_524#" 540
+cap "a_3849_495#" "m1_3969_524#" 240
+cap "m1_2764_1062#" "m1_2699_772#" 2880
+cap "m1_3969_524#" "dividendin_1" 540
+cap "dividendin_4" "m1_3940_512#" 540
+cap "dividendin_3" "m1_3940_512#" 540
+cap "a_3849_495#" "dividendin_4" 240
+cap "a_3849_495#" "dividendin_3" 240
+cap "reset" "m1_2699_772#" 360
+cap "m1_2699_772#" "start" 900
+cap "m1_3940_512#" "dividendin_5" 540
+cap "a_3849_495#" "dividendin_5" 240
+cap "dividendin_4" "m1_3969_524#" 540
+cap "m1_3969_524#" "dividendin_3" 540
+cap "valid" "m1_3940_512#" 540
+cap "a_3849_495#" "valid" 240
+cap "m1_2699_772#" "Vdd" 1080
+cap "m1_3969_524#" "dividendin_5" 540
+cap "m1_3969_524#" "valid" 540
+cap "dividendin_2" "m1_3888_502#" 540
+cap "m1_3940_512#" "dividendin_7" 540
+cap "m1_2764_1062#" "Vdd" 1575
+cap "m1_3940_512#" "dividendin_6" 540
+cap "m1_2764_1062#" "a_2710_560#" 1260
+cap "a_3849_495#" "dividendin_7" 240
+cap "a_3849_495#" "dividendin_6" 240
+cap "m1_2764_1062#" "m1_2719_752#" 1260
+cap "reset" "Vdd" 360
+cap "m1_3969_524#" "dividendin_7" 540
+cap "m1_3888_502#" "m1_3940_512#" 585
+cap "dividendin_0" "m1_3888_502#" 540
+cap "m1_3969_524#" "dividendin_6" 540
+cap "a_3849_495#" "m1_3888_502#" 240
+cap "m1_3888_502#" "dividendin_1" 540
+cap "m1_3969_524#" "m1_3888_502#" 540
+cap "datapath_0/Gnd" "a_3849_495#" 240
+cap "a_2439_454#" "datapath_0/dbithigh_7/m1_67_n389#" 304
+cap "a_2439_454#" "datapath_0/dbithigh_7/m1_124_n400#" 304
+cap "a_2439_454#" "datapath_0/clk" 380
+cap "a_2439_454#" "datapath_0/m1_167_618#" 360
+cap "datapath_0/and_0/Gnd" "datapath_0/clk" 900
+cap "datapath_0/and_0/Gnd" "datapath_0/a_2614_781#" 240
+cap "datapath_0/clk" "datapath_0/a_2614_781#" 360
+cap "Gnd" "datapath_0/clk" 225
+cap "m1_2764_1062#" "controller_0/c1b" 720
+cap "m1_2764_1062#" "controller_0/cvalid_0/cvbit_4/addsub1_0/Vdd" 1260
+cap "m1_2764_1062#" "controller_0/start" 1800
+merge "controller_0/sel2" "datapath_0/sel2" -23500 0 0 0 0 0 0 0 0 0 0 0 0 -500 -216 0 0 0 0
+merge "datapath_0/sel2" "m1_3969_524#"
+merge "datapath_0/load" "controller_0/load" -56400 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -618 0 0 0 0
+merge "controller_0/load" "m1_2699_772#"
+merge "datapath_0/add" "controller_0/add" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "controller_0/add" "a_2439_454#"
+merge "datapath_0/a_2614_781#" "reset" -8028 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 -400 -208 0 0
+merge "reset" "controller_0/cvalid_0/cvbit_0/reset"
+merge "controller_0/cvalid_0/cvbit_0/reset" "a_2710_560#"
+merge "controller_0/cvalid_0/cvbit_0/m2_n10_49#" "datapath_0/and_0/Vdd" -21132 0 0 0 0 0 0 0 0 0 0 0 0 -460 -209 -4 -10 0 0
+merge "datapath_0/and_0/Vdd" "Vdd"
+merge "datapath_0/remainder_0" "remainder_0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "controller_0/sel1" "datapath_0/sel1" -16450 0 0 0 0 0 0 0 0 0 0 0 0 -350 -238 0 0 0 0
+merge "datapath_0/sel1" "m1_3940_512#"
+merge "controller_0/start" "start" -987 0 0 0 0 0 0 0 0 0 0 0 0 -21 -13 0 0 0 0
+merge "datapath_0/remainder_1" "remainder_1" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0
+merge "datapath_0/remainder_2" "remainder_2" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "controller_0/inbit" "datapath_0/inbit" -47188 0 0 0 0 0 0 0 0 0 0 0 0 -1004 -420 0 0 0 0
+merge "datapath_0/inbit" "m1_3888_502#"
+merge "datapath_0/remainder_3" "remainder_3" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "datapath_0/remainder_4" "remainder_4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "datapath_0/remainder_5" "remainder_5" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "controller_0/shift" "datapath_0/shift" -123778 0 0 0 0 -1022 -1049 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "datapath_0/shift" "a_3849_495#"
+merge "controller_0/cvalid_0/cvbit_0/clk" "datapath_0/clk" -2766 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 -101 -50 0 0
+merge "datapath_0/clk" "clk"
+merge "clk" "m1_2719_752#"
+merge "datapath_0/remainder_6" "remainder_6" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "controller_0/cvalid_0/cvbit_0/and_0/Gnd" "datapath_0/and_0/Gnd" -24111 0 0 0 0 0 0 0 0 0 0 0 0 -520 -226 0 0 0 0
+merge "datapath_0/and_0/Gnd" "Gnd"
+merge "controller_0/valid" "valid" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "datapath_0/quotient_0" "quotient_0" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -40 0 0 0 0
+merge "datapath_0/quotient_1" "quotient_1" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -40 0 0 0 0
+merge "datapath_0/dividendin_0" "dividendin_0" -15980 0 0 0 0 0 0 0 0 0 0 0 0 -348 -178 0 -8 0 0
+merge "datapath_0/quotient_2" "quotient_2" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "datapath_0/dividendin_1" "dividendin_1" -15980 0 0 0 0 0 0 0 0 0 0 0 0 -348 -178 0 -8 0 0
+merge "controller_0/sign" "datapath_0/m1_167_618#" -56292 0 0 0 0 0 0 0 0 0 0 0 0 -751 -254 -1295 -390 0 0
+merge "datapath_0/m1_167_618#" "m1_2764_1062#"
+merge "datapath_0/quotient_3" "quotient_3" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -40 0 0 0 0
+merge "datapath_0/dividendin_2" "dividendin_2" -7990 0 0 0 0 0 0 0 0 0 0 0 0 -174 -89 0 -8 0 0
+merge "datapath_0/quotient_4" "quotient_4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "datapath_0/dividendin_3" "dividendin_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "datapath_0/quotient_5" "quotient_5" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "datapath_0/dividendin_4" "dividendin_4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "datapath_0/quotient_6" "quotient_6" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -34 0 0 0 0
+merge "datapath_0/dividendin_5" "dividendin_5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "datapath_0/quotient_7" "quotient_7" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "datapath_0/dividendin_6" "dividendin_6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "datapath_0/dividendin_7" "dividendin_7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "datapath_0/divisorin_0" "divisorin_0" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_1" "divisorin_1" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_2" "divisorin_2" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_3" "divisorin_3" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_4" "divisorin_4" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_5" "divisorin_5" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0
+merge "datapath_0/divisorin_6" "divisorin_6" -14617 0 0 0 0 0 0 0 0 0 0 0 0 -311 -170 0 0 0 0

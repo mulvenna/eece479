@@ -1,0 +1,614 @@
+timestamp 1428795988
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use dbithigh dbithigh_0 1 0 100 0 1 796
+use dbithigh dbithigh_1 1 0 426 0 1 796
+use dbithigh dbithigh_2 1 0 752 0 1 796
+use dbithigh dbithigh_3 1 0 1078 0 1 796
+use dbithigh dbithigh_4 1 0 1404 0 1 796
+use dbithigh dbithigh_5 1 0 1730 0 1 796
+use dbithigh dbithigh_6 1 0 2056 0 1 796
+use dbithigh dbithigh_7 1 0 2382 0 1 796
+use ../cells/and and_0 -1 0 2639 0 1 805
+use dbitlow dbitlow_0 1 0 2671 0 1 348
+use dbitlow dbitlow_1 1 0 2843 0 1 348
+use dbitlow dbitlow_2 1 0 3015 0 1 348
+use dbitlow dbitlow_3 1 0 3187 0 1 348
+use dbitlow dbitlow_4 1 0 3359 0 1 348
+use dbitlow dbitlow_5 1 0 3531 0 1 348
+use dbitlow dbitlow_6 1 0 3703 0 1 348
+use dbitlow dbitlow_7 1 0 3875 0 1 348
+node "m2_2077_745#" 1 16568 2077 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_1751_745#" 1 16568 1751 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_1425_745#" 1 16568 1425 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_1099_745#" 1 16568 1099 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_773_745#" 1 16568 773 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_447_745#" 1 16568 447 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "m2_121_745#" 1 16568 121 745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0
+node "quotient_0" 0 1504 3910 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "quotient_1" 0 1504 3738 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "quotient_2" 0 3008 3566 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "quotient_3" 0 1504 3394 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "quotient_4" 0 3008 3222 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "quotient_5" 0 3008 3050 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "quotient_6" 0 3008 2878 42 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "quotient_7" 0 3008 2706 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "hello" 0 2350 2457 39 m1 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0
+node "remainder_0" 0 3008 2131 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_1" 0 3008 1805 39 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_2" 0 3008 1479 38 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_3" 0 3008 1153 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_4" 0 3008 827 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_5" 0 3008 501 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "remainder_6" 0 3008 175 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "inbit" 2 33840 3989 309 m1 0 0 0 0 0 0 0 0 0 0 0 0 720 354 0 0 0 0
+node "Gnd" 2 32712 3990 396 m1 0 0 0 0 0 0 0 0 0 0 0 0 696 356 0 0 0 0
+node "dividendin_0" 1 8328 3916 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 296 156 0 0
+node "m1_3902_403#" 0 3202 3902 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 56 36 46 36 0 0
+node "m1_3888_403#" 0 2632 3888 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "dividendin_1" 2 22008 3744 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 1016 516 0 0
+node "m1_3716_403#" 0 1692 3716 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "m1_3730_403#" 0 3392 3730 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 56 36 56 36 0 0
+node "dividendin_2" 3 35688 3572 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 1736 876 0 0
+node "m1_3558_403#" 0 3768 3558 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_3544_403#" 0 3008 3544 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "dividendin_3" 4 49368 3400 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 2456 1236 0 0
+node "m1_3386_403#" 0 3768 3386 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_3372_403#" 0 3008 3372 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "dividendin_4" 5 63048 3228 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 3176 1596 0 0
+node "m1_3214_403#" 0 3768 3214 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_3200_403#" 0 3008 3200 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "dividendin_5" 7 76728 3056 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 3896 1956 0 0
+node "m1_3042_403#" 0 3768 3042 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_3028_403#" 0 3008 3028 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "dividendin_6" 8 90408 2884 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 4616 2316 0 0
+node "m1_2870_403#" 0 3768 2870 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_2856_403#" 0 3008 2856 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "dividendin_7" 9 104088 2712 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 5336 2676 0 0
+node "m1_2698_403#" 0 3768 2698 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 56 36 0 0
+node "m1_2684_403#" 0 3008 2684 403 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "m1_167_618#" 33 500738 167 618 v 0 0 0 0 0 0 0 0 0 0 0 0 10654 5332 20 18 0 0
+node "m1_2601_785#" 1 9776 2601 785 v 0 0 0 0 0 0 0 0 0 0 0 0 56 36 408 212 0 0
+node "load" 0 2444 2664 810 m1 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0
+node "m1_2544_789#" 2 14813 2544 789 m1 0 0 0 0 0 0 0 0 0 0 0 0 299 210 72 44 0 0
+node "m1_2543_839#" 0 2256 2543 839 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "divisorin_0" 0 3525 2348 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "divisorin_1" 0 3525 2022 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "divisorin_2" 0 3525 1696 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "divisorin_3" 0 3525 1370 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "divisorin_4" 0 3807 1043 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 81 60 0 0 0 0
+node "divisorin_5" 0 3525 719 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "divisorin_6" 0 3525 392 862 m1 0 0 0 0 0 0 0 0 0 0 0 0 75 56 0 0 0 0
+node "m1_83_838#" 1 4653 83 838 m1 0 0 0 0 0 0 0 0 0 0 0 0 99 72 0 0 0 0
+node "a_2611_82#" 135 5189 2611 82 p 0 0 0 0 51 40 0 0 0 0 0 0 0 0 0 0 0 0
+node "clk" 29 72164 2567 249 pc 0 0 0 0 16 16 0 0 0 0 0 0 267 162 3179 1386 0 0
+node "a_3990_288#" 541 21127 3990 288 p 24 20 24 20 157 110 0 0 0 0 0 0 196 114 0 0 0 0
+node "shift" 1445 34856 3990 297 p 0 0 0 0 384 310 0 0 0 0 0 0 0 0 0 0 0 0
+node "sel2" 208 36245 4066 345 p 0 0 0 0 84 60 0 0 0 0 0 0 773 448 104 60 0 0
+node "a_4059_348#" 211 12972 4059 348 ndc 25 22 25 22 0 0 0 0 0 0 0 0 392 208 0 0 0 0
+node "sel1" 213 32539 4116 368 p 0 0 0 0 88 62 0 0 0 0 0 0 641 390 271 160 0 0
+node "a_4110_370#" 180 23735 4110 370 ndc 22 20 22 20 0 0 0 0 0 0 0 0 561 306 0 0 0 0
+node "add" 27701 552956 95 647 p 0 0 0 0 4644 4648 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2398_717#" 60 1510 2398 717 p 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2574_769#" 24 2575 2574 769 pc 0 0 0 0 25 20 0 0 0 0 0 0 25 20 0 0 0 0
+node "a_2248_770#" 24 1904 2248 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_1922_770#" 24 1904 1922 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_1596_770#" 24 1904 1596 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_1270_770#" 24 1904 1270 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_944_770#" 24 1904 944 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_618_770#" 24 1904 618 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_292_770#" 24 1904 292 770 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_2614_781#" 1002 20312 2614 781 p 0 0 0 0 168 172 0 0 0 0 0 0 0 0 0 0 0 0
+node "reset" 4597 235464 -22 79 p 0 0 0 0 2936 1512 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2610_806#" 24 1904 2610 806 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_4009_221#" 908 47317 4009 221 pw 74 64 48 48 0 0 0 0 0 0 0 0 966 528 710 410 0 0
+node "Vdd" 37574 27829 4010 246 nw 48 48 71 62 0 0 0 0 0 0 0 0 591 340 750 412 1440 310
+cap "w_4009_221#" "a_3990_288#" 376
+cap "a_4059_348#" "Vdd" 3384
+cap "w_4009_221#" "sel2" 7888
+cap "clk" "a_2614_781#" 190
+cap "w_4009_221#" "sel1" 7378
+cap "Vdd" "a_3990_288#" 736
+cap "m1_2601_785#" "m1_2544_789#" 540
+cap "sel2" "Vdd" 3439
+cap "inbit" "w_4009_221#" 720
+cap "Vdd" "sel1" 3365
+cap "inbit" "Vdd" 720
+cap "a_4110_370#" "w_4009_221#" 564
+cap "shift" "w_4009_221#" 1660
+cap "clk" "m1_167_618#" 540
+cap "a_4110_370#" "Vdd" 564
+cap "shift" "Vdd" 2464
+cap "w_4009_221#" "Vdd" 3196
+cap "a_4059_348#" "w_4009_221#" 564
+device mosfet nfet 4022 227 4023 228 2 4 "w_4009_221#" "shift" 4 0 "a_3990_288#" 4 0 "w_4009_221#" 4 0
+device mosfet pfet 4022 248 4023 249 2 4 "Vdd" "shift" 4 0 "a_3990_288#" 4 0 "Vdd" 4 0
+device mosfet nfet 4066 348 4067 349 3 3 "w_4009_221#" "sel2" 6 0 "a_4059_348#" 3 0 "w_4009_221#" 3 0
+device mosfet pfet 4066 363 4067 364 3 3 "Vdd" "sel2" 6 0 "a_4059_348#" 3 0 "Vdd" 3 0
+device mosfet nfet 4116 370 4117 371 3 3 "w_4009_221#" "sel1" 6 0 "a_4110_370#" 3 0 "w_4009_221#" 3 0
+device mosfet pfet 4116 387 4117 388 3 3 "Vdd" "sel1" 6 0 "a_4110_370#" 3 0 "Vdd" 3 0
+cap "dbithigh_7/a_156_n545#" "dbithigh_7/m1_100_n534#" 900
+cap "dbithigh_7/a_155_n499#" "dbithigh_7/a_156_n545#" 285
+cap "dbithigh_7/a_155_n508#" "dbithigh_7/a_156_n545#" 285
+cap "dbithigh_7/a_156_n545#" "dbithigh_7/m1_155_n473#" 900
+cap "dbithigh_7/m1_155_n429#" "clk" 900
+cap "dbithigh_7/m1_155_n419#" "clk" 900
+cap "dbithigh_7/m1_155_n409#" "clk" 900
+cap "dbithigh_7/m1_155_n400#" "clk" 900
+cap "dbithigh_7/m1_155_n439#" "clk" 900
+cap "dbithigh_0/m1_124_n400#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_1/a_24_n69#" 540
+cap "dbithigh_1/m1_n94_n534#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_1/m1_67_n389#" 720
+cap "m1_167_618#" "dbithigh_1/m1_124_n400#" 720
+cap "dbithigh_2/m1_n94_n534#" "m1_167_618#" 720
+cap "dbithigh_2/a_24_n69#" "m1_167_618#" 540
+cap "m1_167_618#" "dbithigh_2/m1_124_n400#" 360
+cap "m1_167_618#" "dbithigh_2/m1_67_n389#" 720
+cap "dbithigh_2/m1_124_n400#" "m1_167_618#" 360
+cap "m1_167_618#" "dbithigh_3/m1_n94_n534#" 720
+cap "m1_167_618#" "dbithigh_3/a_24_n69#" 540
+cap "dbithigh_3/m1_67_n389#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_3/m1_124_n400#" 720
+cap "dbithigh_4/a_24_n69#" "m1_167_618#" 540
+cap "dbithigh_4/m1_n94_n534#" "m1_167_618#" 720
+cap "dbithigh_4/m1_67_n389#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_4/m1_124_n400#" 720
+cap "m1_167_618#" "dbithigh_5/a_24_n69#" 540
+cap "m1_167_618#" "dbithigh_5/m1_n94_n534#" 720
+cap "m1_167_618#" "dbithigh_5/m1_124_n400#" 720
+cap "m1_167_618#" "dbithigh_5/m1_67_n389#" 720
+cap "m1_167_618#" "dbithigh_6/m1_n94_n534#" 540
+cap "dbithigh_6/a_24_n69#" "m1_167_618#" 540
+cap "m1_167_618#" "dbithigh_6/m1_n94_n534#" 180
+cap "m1_167_618#" "dbithigh_6/m1_67_n389#" 720
+cap "dbithigh_6/m1_124_n400#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_7/a_24_n69#" 540
+cap "dbithigh_7/m1_n94_n534#" "m1_167_618#" 720
+cap "dbithigh_7/m1_67_n389#" "m1_167_618#" 720
+cap "m1_167_618#" "dbithigh_7/m1_124_n400#" 720
+cap "dbithigh_0/m1_67_n389#" "dbithigh_0/a_n5_n149#" 152
+cap "dbithigh_0/m1_124_n400#" "add" 627
+cap "dbithigh_1/m1_n94_n534#" "add" 152
+cap "dbithigh_1/a_24_n69#" "add" 114
+cap "add" "dbithigh_1/m1_124_n400#" 589
+cap "add" "dbithigh_1/m1_67_n389#" 152
+cap "dbithigh_2/m1_n94_n534#" "add" 152
+cap "dbithigh_1/addsub1_0/Gnd" "add" 38
+cap "dbithigh_2/a_n5_n149#" "dbithigh_2/a_24_n69#" 114
+cap "dbithigh_2/m1_67_n389#" "add" 152
+cap "dbithigh_2/m1_124_n400#" "add" 38
+cap "dbithigh_2/m1_124_n400#" "add" 589
+cap "dbithigh_3/addsub1_0/add" "dbithigh_3/a_24_n69#" 114
+cap "dbithigh_3/addsub1_0/Vdd" "dbithigh_3/addsub1_0/add" 152
+cap "add" "dbithigh_3/m1_67_n389#" 152
+cap "dbithigh_3/m1_124_n400#" "add" 627
+cap "add" "dbithigh_4/addsub1_0/Vdd" 152
+cap "add" "dbithigh_4/a_24_n69#" 114
+cap "dbithigh_4/a_n5_n149#" "dbithigh_4/m1_67_n389#" 152
+cap "add" "dbithigh_4/m1_124_n400#" 627
+cap "add" "dbithigh_5/m1_n94_n534#" 152
+cap "add" "dbithigh_5/a_24_n69#" 114
+cap "dbithigh_5/m1_124_n400#" "add" 456
+cap "dbithigh_5/m1_67_n389#" "add" 152
+cap "dbithigh_5/addsub1_0/Gnd" "add" 171
+cap "add" "dbithigh_6/m1_n94_n534#" 114
+cap "dbithigh_6/a_n5_n149#" "dbithigh_6/m1_n94_n534#" 38
+cap "dbithigh_6/a_n5_n149#" "dbithigh_6/a_24_n69#" 114
+cap "add" "dbithigh_6/m1_67_n389#" 152
+cap "add" "dbithigh_6/m1_124_n400#" 627
+cap "dbithigh_7/a_24_n69#" "dbithigh_7/addsub1_0/add" 114
+cap "dbithigh_7/addsub1_0/add" "dbithigh_7/addsub1_0/Vdd" 152
+cap "dbithigh_0/m1_21_n88#" "dbithigh_0/addsub1_0/Vdd" 540
+cap "dbithigh_0/addsub1_0/a_n28_44#" "dbithigh_0/m1_21_n88#" 1528
+cap "dbithigh_0/addsub1_0/a_11_44#" "dbithigh_0/m1_21_n88#" 264
+cap "dbithigh_0/addsub1_0/Vdd" "dbithigh_0/m1_21_n88#" 2223
+cap "dbithigh_0/addsub1_0/a_n66_n2#" "dbithigh_0/m1_21_n88#" 665
+cap "m2_121_745#" "dbithigh_0/addsub1_0/Vdd" 540
+cap "dbithigh_0/addsub1_0/Vdd" "m2_121_745#" 3610
+cap "m2_121_745#" "dbithigh_0/addsub1_0/a_74_44#" 264
+cap "m2_121_745#" "dbithigh_0/addsub1_0/Vdd" 540
+cap "dbithigh_0/addsub1_0/a_34_28#" "m2_121_745#" 720
+cap "m2_121_745#" "dbithigh_0/addsub1_0/Vdd" 426
+cap "dbithigh_0/addsub1_0/a_n66_n2#" "m2_121_745#" 969
+cap "dbithigh_1/m1_n87_n135#" "dbithigh_0/addsub1_0/Vdd" 540
+cap "dbithigh_1/addsub1_0/a_n66_n2#" "dbithigh_1/m1_21_n88#" 285
+cap "dbithigh_1/m1_21_n88#" "dbithigh_1/addsub1_0/Vdd" 1007
+cap "dbithigh_1/m1_21_n88#" "dbithigh_1/addsub1_0/Vdd" 540
+cap "dbithigh_1/m1_21_n88#" "dbithigh_1/addsub1_0/a_n28_44#" 1168
+cap "m2_447_745#" "dbithigh_1/addsub1_0/Vdd" 540
+cap "m2_447_745#" "dbithigh_1/addsub1_0/a_n28_44#" 360
+cap "m2_447_745#" "dbithigh_1/addsub1_0/a_11_44#" 264
+cap "m2_447_745#" "dbithigh_1/addsub1_0/Vdd" 4826
+cap "m2_447_745#" "dbithigh_1/addsub1_0/Vdd" 426
+cap "dbithigh_1/addsub1_0/a_n66_n2#" "m2_447_745#" 1349
+cap "dbithigh_1/addsub1_0/a_34_28#" "m2_447_745#" 720
+cap "dbithigh_1/addsub1_0/a_74_44#" "m2_447_745#" 264
+cap "dbithigh_2/m1_n87_n135#" "dbithigh_1/addsub1_0/Vdd" 1080
+cap "dbithigh_2/m1_21_n88#" "dbithigh_2/addsub1_0/Vdd" 76
+cap "m2_773_745#" "dbithigh_2/addsub1_0/a_n66_n2#" 1387
+cap "m2_773_745#" "dbithigh_2/addsub1_0/Vdd" 540
+cap "m2_773_745#" "dbithigh_2/addsub1_0/Vdd" 540
+cap "m2_773_745#" "dbithigh_2/addsub1_0/a_34_28#" 720
+cap "m2_773_745#" "dbithigh_2/addsub1_0/Vdd" 426
+cap "dbithigh_2/addsub1_0/Vdd" "m2_773_745#" 4332
+cap "m2_773_745#" "dbithigh_2/addsub1_0/a_11_44#" 264
+cap "dbithigh_2/addsub1_0/a_n28_44#" "m2_773_745#" 1528
+cap "dbithigh_2/addsub1_0/Vdd" "m2_773_745#" 1425
+cap "dbithigh_2/addsub1_0/a_74_44#" "m2_773_745#" 264
+cap "dbithigh_2/addsub1_0/Vdd" "m2_773_745#" 1080
+cap "dbithigh_2/addsub1_0/a_n66_n2#" "m2_773_745#" 247
+cap "dbithigh_3/addsub1_0/Vdd" "dbithigh_3/m1_21_n88#" 3477
+cap "dbithigh_3/addsub1_0/a_11_44#" "dbithigh_3/m1_21_n88#" 264
+cap "dbithigh_3/addsub1_0/Vdd" "dbithigh_3/m1_21_n88#" 540
+cap "dbithigh_3/addsub1_0/a_n28_44#" "dbithigh_3/m1_21_n88#" 1528
+cap "dbithigh_3/addsub1_0/a_n66_n2#" "dbithigh_3/m1_21_n88#" 1083
+cap "dbithigh_3/addsub1_0/a_34_28#" "m2_1099_745#" 720
+cap "dbithigh_3/addsub1_0/Vdd" "m2_1099_745#" 2356
+cap "dbithigh_3/addsub1_0/a_n66_n2#" "m2_1099_745#" 551
+cap "dbithigh_3/addsub1_0/a_74_44#" "m2_1099_745#" 264
+cap "dbithigh_3/addsub1_0/Vdd" "m2_1099_745#" 2046
+cap "dbithigh_4/addsub1_0/Vdd" "dbithigh_4/m1_21_n88#" 2147
+cap "dbithigh_4/m1_21_n88#" "dbithigh_4/addsub1_0/a_n28_44#" 1528
+cap "dbithigh_4/m1_21_n88#" "dbithigh_4/addsub1_0/Vdd" 540
+cap "dbithigh_4/m1_21_n88#" "dbithigh_4/addsub1_0/a_n66_n2#" 665
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/a_11_44#" 264
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/a_34_28#" 720
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/a_74_44#" 264
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/Vdd" 540
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/Vdd" 3686
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/a_n66_n2#" 969
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/Vdd" 540
+cap "m2_1425_745#" "dbithigh_4/addsub1_0/Vdd" 426
+cap "dbithigh_4/addsub1_0/Vdd" "dbithigh_5/m1_n87_n135#" 540
+cap "dbithigh_5/m1_21_n88#" "dbithigh_5/addsub1_0/a_n66_n2#" 228
+cap "dbithigh_5/m1_21_n88#" "dbithigh_5/addsub1_0/Vdd" 893
+cap "dbithigh_5/m1_21_n88#" "dbithigh_5/addsub1_0/Vdd" 540
+cap "dbithigh_5/m1_21_n88#" "dbithigh_5/addsub1_0/a_n28_44#" 853
+cap "dbithigh_5/addsub1_0/a_11_44#" "m2_1751_745#" 264
+cap "dbithigh_5/addsub1_0/Vdd" "m2_1751_745#" 540
+cap "dbithigh_5/addsub1_0/a_n66_n2#" "m2_1751_745#" 1406
+cap "dbithigh_5/addsub1_0/a_34_28#" "m2_1751_745#" 720
+cap "m2_1751_745#" "dbithigh_5/addsub1_0/Vdd" 426
+cap "m2_1751_745#" "dbithigh_5/addsub1_0/Vdd" 4712
+cap "dbithigh_5/addsub1_0/a_n28_44#" "m2_1751_745#" 675
+cap "dbithigh_5/addsub1_0/a_74_44#" "m2_1751_745#" 264
+cap "dbithigh_6/m1_n87_n135#" "dbithigh_5/addsub1_0/Vdd" 1080
+cap "dbithigh_6/m1_n87_n135#" "dbithigh_5/addsub1_0/Vdd" 228
+cap "dbithigh_6/addsub1_0/a_34_28#" "dbithigh_6/m1_21_n88#" 720
+cap "dbithigh_6/addsub1_0/Vdd" "dbithigh_6/m1_21_n88#" 540
+cap "dbithigh_6/addsub1_0/a_n28_44#" "dbithigh_6/m1_21_n88#" 1528
+cap "dbithigh_6/addsub1_0/Vdd" "dbithigh_6/m1_21_n88#" 180
+cap "dbithigh_6/addsub1_0/a_n66_n2#" "dbithigh_6/m1_21_n88#" 1349
+cap "dbithigh_6/addsub1_0/Vdd" "dbithigh_6/m1_21_n88#" 4294
+cap "dbithigh_6/m1_21_n88#" "dbithigh_6/addsub1_0/Vdd" 426
+cap "dbithigh_6/addsub1_0/a_11_44#" "dbithigh_6/m1_21_n88#" 264
+cap "dbithigh_6/addsub1_0/a_n66_n2#" "m2_2077_745#" 285
+cap "dbithigh_6/addsub1_0/Vdd" "m2_2077_745#" 1440
+cap "dbithigh_6/addsub1_0/a_74_44#" "m2_2077_745#" 264
+cap "dbithigh_6/addsub1_0/Vdd" "m2_2077_745#" 1539
+cap "dbithigh_7/reg1_0/nor_1/a_n13_n5#" "dbithigh_7/a_n39_n87#" 540
+cap "dbithigh_7/reg1_0/nor_1/a_n13_15#" "dbithigh_7/reg1_0/Vdd" 1269
+cap "dbithigh_7/a_n39_n87#" "dbithigh_7/reg1_0/nor_1/a_n13_15#" 720
+cap "dbithigh_7/reg1_0/nor_1/a_n13_n5#" "dbithigh_7/reg1_0/Gnd" 57
+cap "dbithigh_7/reg1_0/nor_1/a_n13_n5#" "dbithigh_7/a_n94_14#" 171
+cap "dbithigh_7/reg1_0/nor_1/a_n13_n5#" "dbithigh_7/reg1_0/a_117_28#" 540
+cap "dbithigh_7/a_n94_14#" "and_0/Vdd" 270
+cap "dbithigh_7/a_n94_14#" "and_0/Gnd" 228
+cap "dbithigh_1/reg1_0/d" "dbithigh_1/a_n94_14#" 270
+cap "dbithigh_2/reg1_0/d" "dbithigh_2/a_n94_14#" 270
+cap "dbithigh_3/a_n94_14#" "dbithigh_3/reg1_0/d" 270
+cap "dbithigh_4/a_n94_14#" "divisorin_3" 270
+cap "dbithigh_5/reg1_0/d" "dbithigh_5/a_n94_14#" 270
+cap "dbithigh_6/reg1_0/d" "dbithigh_6/a_n94_14#" 270
+cap "dbithigh_7/reg1_0/d" "dbithigh_7/a_n94_14#" 270
+cap "dbithigh_7/a_n94_14#" "m1_2601_785#" 57
+cap "dbithigh_7/m1_174_65#" "m1_2601_785#" 180
+cap "dbithigh_7/reg1_0/a_117_28#" "m1_2601_785#" 180
+cap "dbithigh_7/reg1_0/Gnd" "m1_2601_785#" 19
+merge "dbithigh_5/a_n94_n499#" "dbithigh_4/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/m1_n87_n135#" "dbithigh_6/m1_21_n88#" -15276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_6/m1_21_n88#" "m2_2077_745#"
+merge "dbithigh_2/a_n94_n508#" "dbithigh_1/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_2/m1_n57_48#" "dbitlow_1/mux1_0/Gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_2/a_n94_n717#" "dbithigh_1/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_5/m1_n94_n419#" "dbithigh_4/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_5/reg1_0/d" "divisorin_2" -423 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "dbithigh_1/m1_n94_n409#" "dbithigh_0/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/m1_n94_n409#" "dbithigh_5/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/a_n57_n51#" "dbitlow_0/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/a_n94_n15#" "dbithigh_6/a_n94_n15#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_6/a_n94_n15#" "dbithigh_5/a_n94_n15#"
+merge "dbithigh_5/a_n94_n15#" "dbithigh_4/a_n94_n15#"
+merge "dbithigh_4/a_n94_n15#" "dbithigh_3/a_n94_n15#"
+merge "dbithigh_3/a_n94_n15#" "dbithigh_2/a_n94_n15#"
+merge "dbithigh_2/a_n94_n15#" "dbithigh_1/a_n94_n15#"
+merge "dbithigh_1/a_n94_n15#" "dbithigh_0/a_n94_n15#"
+merge "dbithigh_0/a_n94_n15#" "dbithigh_0/a_n94_n717#"
+merge "dbithigh_0/a_n94_n717#" "reset"
+merge "reset" "a_2614_781#"
+merge "dbithigh_0/a_24_n69#" "dbithigh_0/dbitlow_0/m1_n47_n292#" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "dbithigh_0/dbitlow_0/m1_n47_n292#" "remainder_6"
+merge "dbitlow_2/a_n57_n51#" "dbitlow_1/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_0/m1_n57_9#" "dbithigh_7/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/addsub1_0/add" "dbithigh_6/a_n5_n149#" -379180 0 0 0 0 -3180 -3210 0 0 0 0 0 0 -12 -10 0 0 0 0
+merge "dbithigh_6/a_n5_n149#" "dbithigh_5/a_n5_n149#"
+merge "dbithigh_5/a_n5_n149#" "dbithigh_4/a_n5_n149#"
+merge "dbithigh_4/a_n5_n149#" "dbithigh_3/addsub1_0/add"
+merge "dbithigh_3/addsub1_0/add" "dbithigh_2/a_n5_n149#"
+merge "dbithigh_2/a_n5_n149#" "dbithigh_1/a_n5_n149#"
+merge "dbithigh_1/a_n5_n149#" "dbithigh_0/a_n5_n149#"
+merge "dbithigh_0/a_n5_n149#" "add"
+merge "dbithigh_5/m1_n94_n439#" "dbithigh_4/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_0/m1_174_65#" "dbithigh_0/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_0/a_n39_n87#" "a_292_770#"
+merge "dbitlow_3/a_n57_n51#" "dbitlow_2/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_6/m1_n57_n25#" "dbitlow_5/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_3/m1_n87_n135#" "dbithigh_2/m1_21_n88#" -15580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -816 -424 0 0
+merge "dbithigh_2/m1_21_n88#" "m2_773_745#"
+merge "dbithigh_1/m1_n94_n429#" "dbithigh_0/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n57_n86#" "dbithigh_7/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_4/a_n57_n51#" "dbitlow_3/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_2/m1_n57_9#" "dbitlow_1/mux1_0/sel2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_1/mux1_0/sel2" "dbitlow_0/m1_58_9#"
+merge "dbitlow_5/a_n57_n251#" "dbitlow_4/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_6/m1_n94_n400#" "dbithigh_5/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_5/m1_174_65#" "dbithigh_5/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_5/a_n39_n87#" "a_1922_770#"
+merge "dbitlow_3/m1_n57_19#" "dbitlow_2/m1_58_19#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/a_n57_n51#" "dbitlow_4/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_1/reg1_0/q" "dbitlow_1/m1_n47_n292#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -14 0 0 0 0
+merge "dbitlow_1/m1_n47_n292#" "quotient_6"
+merge "dbitlow_3/m1_n57_n86#" "dbitlow_2/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_3/m1_n57_9#" "dbitlow_2/m1_58_9#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_4/a_24_n69#" "remainder_2" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "dbitlow_6/a_n57_n51#" "dbitlow_5/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_2/m1_n94_n473#" "dbithigh_1/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_5/a_24_n69#" "remainder_1" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "dbitlow_7/a_n57_n51#" "dbitlow_6/a_60_n51#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/m1_n94_n473#" "dbithigh_6/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/m1_n57_9#" "dbitlow_4/mux1_0/sel2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_4/mux1_0/sel2" "dbitlow_3/m1_58_9#"
+merge "dbitlow_6/m1_n57_29#" "dbitlow_5/m1_58_29#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_6/m1_n57_9#" "dbitlow_5/m1_58_9#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/a_60_n51#" "shift" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/a_n94_n545#" "dbithigh_6/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/a_24_n69#" "hello" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0
+merge "dbitlow_7/m1_n57_9#" "dbitlow_6/m1_58_9#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "and_0/b" "dbitlow_7/a_n57_n97#" -22938 0 0 0 0 -22 -58 0 0 0 0 0 0 -4 -10 -830 -350 0 0
+merge "dbitlow_7/a_n57_n97#" "dbitlow_6/a_n57_n97#"
+merge "dbitlow_6/a_n57_n97#" "dbitlow_5/a_n57_n97#"
+merge "dbitlow_5/a_n57_n97#" "dbitlow_4/a_n57_n97#"
+merge "dbitlow_4/a_n57_n97#" "dbitlow_3/a_n57_n97#"
+merge "dbitlow_3/a_n57_n97#" "dbitlow_2/a_n57_n97#"
+merge "dbitlow_2/a_n57_n97#" "dbitlow_1/a_n57_n97#"
+merge "dbitlow_1/a_n57_n97#" "dbitlow_0/a_n57_n97#"
+merge "dbitlow_0/a_n57_n97#" "dbithigh_7/a_156_n545#"
+merge "dbithigh_7/a_156_n545#" "clk"
+merge "dbithigh_6/m1_n94_n429#" "dbithigh_5/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/m1_n57_29#" "dbitlow_4/mux1_0/sel1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_4/mux1_0/sel1" "dbitlow_3/m1_58_29#"
+merge "dbithigh_2/m1_n94_n419#" "dbithigh_1/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_3/m1_n57_48#" "dbitlow_2/m1_58_48#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_1/a_n94_n545#" "dbithigh_0/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/m1_n94_n419#" "dbithigh_6/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/a_60_n60#" "a_3990_288#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/m1_n94_n409#" "dbithigh_2/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_1/m1_174_65#" "dbithigh_1/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_1/a_n39_n87#" "a_618_770#"
+merge "dbithigh_7/a_n94_n717#" "dbithigh_6/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_2/m1_n94_n439#" "dbithigh_1/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/reg1_0/d" "divisorin_1" -423 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "dbitlow_7/m1_n57_n25#" "dbitlow_6/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_5/m1_n94_n534#" "dbithigh_4/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/m1_n57_19#" "dbitlow_1/mux1_0/sel2b" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_1/mux1_0/sel2b" "dbitlow_0/m1_58_19#"
+merge "dbithigh_1/a_n94_n717#" "dbithigh_0/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/m1_n94_n400#" "dbithigh_2/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n57_48#" "dbithigh_7/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_3/m1_n57_n25#" "dbitlow_2/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_4/m1_n87_n135#" "dbithigh_3/m1_21_n88#" -13604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_3/m1_21_n88#" "m2_1099_745#"
+merge "dbithigh_3/a_n94_n545#" "dbithigh_2/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_5/m1_n57_19#" "dbitlow_4/mux1_0/sel2b" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_4/mux1_0/sel2b" "dbitlow_3/m1_58_19#"
+merge "dbithigh_4/m1_n94_n473#" "dbithigh_3/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_n57_29#" "dbitlow_6/m1_58_29#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/shift1_0/Gnd" "w_4009_221#" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -40 0 0 0 0
+merge "dbithigh_7/a_n94_n508#" "dbithigh_6/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_6/m1_n57_19#" "dbitlow_5/m1_58_19#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/m1_n94_n439#" "dbithigh_6/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/m1_n57_48#" "dbitlow_0/m1_58_48#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/reg1_0/a_117_28#" "m1_2543_839#" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -32 0 0 0 0
+merge "dbithigh_4/a_n94_n499#" "dbithigh_3/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/m1_n94_n429#" "dbithigh_2/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_n57_19#" "dbitlow_6/m1_58_19#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n57_19#" "dbithigh_7/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_4/m1_n57_48#" "dbitlow_3/m1_58_48#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_1/a_n94_n508#" "dbithigh_0/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_4/m1_n94_n419#" "dbithigh_3/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_58_19#" "a_4059_348#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_0/reg1_0/d" "dbithigh_0/reg1_0/Gnd" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -19 0 0 0 0
+merge "dbithigh_0/reg1_0/Gnd" "m1_83_838#"
+merge "dbithigh_6/dbitlow_0/m1_n47_n292#" "remainder_0" -1316 0 0 0 0 0 0 0 0 0 0 0 0 -28 -22 0 0 0 0
+merge "dbithigh_2/m1_174_65#" "dbithigh_2/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_2/a_n39_n87#" "a_944_770#"
+merge "dbitlow_7/m1_60_n25#" "inbit" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbithigh_1/m1_n87_n135#" "dbithigh_0/m1_21_n88#" -12160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_0/m1_21_n88#" "m2_121_745#"
+merge "dbithigh_6/m1_n94_n534#" "dbithigh_5/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/m1_n57_n86#" "dbitlow_0/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbithigh_2/m1_n94_n534#" "dbithigh_1/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_6/m1_n57_48#" "dbitlow_5/m1_58_48#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/reg1_0/d" "divisorin_0" -423 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "dbitlow_7/m1_n57_48#" "dbitlow_6/m1_58_48#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_4/a_n57_n251#" "dbitlow_3/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_5/m1_n94_n400#" "dbithigh_4/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "and_0/a" "load" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/mux1_0/c" "m1_2684_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "m1_2684_403#" "dbitlow_0/mux1_0/a"
+merge "dbitlow_0/mux1_0/a" "m1_2698_403#"
+merge "dbitlow_2/m1_n57_n86#" "dbitlow_1/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_7/m1_58_48#" "Gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_55_n86#" "Vdd" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbithigh_2/m1_n87_n135#" "dbithigh_1/m1_21_n88#" -10412 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_1/m1_21_n88#" "m2_447_745#"
+merge "dbithigh_1/m1_n94_n473#" "dbithigh_0/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_3/dbitlow_0/m1_n47_n292#" "remainder_3" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "dbithigh_5/m1_n94_n409#" "dbithigh_4/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/a_n57_n60#" "dbithigh_7/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_0/mux1_0/b" "dividendin_7" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbithigh_6/a_n94_n545#" "dbithigh_5/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_4/m1_n94_n439#" "dbithigh_3/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_5/m1_n94_n429#" "dbithigh_4/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/m1_n57_39#" "dbitlow_4/mux1_0/sel1b" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_4/mux1_0/sel1b" "dbitlow_3/m1_58_39#"
+merge "dbitlow_5/m1_n57_48#" "dbitlow_4/mux1_0/Gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_1/m1_n94_n419#" "dbithigh_0/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/m1_n47_n292#" "quotient_2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_3/m1_174_65#" "dbithigh_3/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_3/a_n39_n87#" "a_1270_770#"
+merge "dbithigh_6/a_n94_n717#" "dbithigh_5/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/m1_n94_n534#" "dbithigh_2/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/m1_n94_n473#" "dbithigh_5/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_2/dbitlow_0/m1_n47_n292#" "remainder_4" -1316 0 0 0 0 0 0 0 0 0 0 0 0 -28 -22 0 0 0 0
+merge "dbithigh_2/m1_n94_n400#" "dbithigh_1/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/m1_n57_n25#" "dbitlow_1/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/m1_n94_n419#" "dbithigh_5/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_2/a_n94_n545#" "dbithigh_1/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_2/m1_n94_n409#" "dbithigh_1/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/mux1_0/c" "m1_2856_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "m1_2856_403#" "dbitlow_1/mux1_0/a"
+merge "dbitlow_1/mux1_0/a" "m1_2870_403#"
+merge "dbithigh_7/m1_n94_n409#" "dbithigh_6/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "and_0/Vdd" "dbithigh_7/reg1_0/Vdd" -5091 0 0 0 0 0 0 0 0 0 0 0 0 -88 -70 -44 -26 0 0
+merge "dbithigh_7/reg1_0/Vdd" "m1_2544_789#"
+merge "dbithigh_1/dbitlow_0/m1_n47_n292#" "remainder_5" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "dbitlow_1/a_n57_n60#" "dbitlow_0/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_7/mux1_0/c" "m1_3888_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -6 0 0
+merge "m1_3888_403#" "dbitlow_7/mux1_0/a"
+merge "dbitlow_7/mux1_0/a" "m1_3902_403#"
+merge "dbithigh_6/a_n94_n508#" "dbithigh_5/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_1/m1_n94_n439#" "dbithigh_0/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/m1_174_65#" "dbithigh_6/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_6/a_n39_n87#" "a_2248_770#"
+merge "dbithigh_6/m1_n94_n439#" "dbithigh_5/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_2/m1_n94_n429#" "dbithigh_1/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/m1_n57_39#" "dbitlow_1/mux1_0/sel1b" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_1/mux1_0/sel1b" "dbitlow_0/m1_58_39#"
+merge "dbithigh_3/a_n94_n499#" "dbithigh_2/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/m1_174_65#" "dbithigh_7/a_n39_n87#" -1808 0 0 0 0 -8 -14 0 0 0 0 0 0 -8 -14 0 0 0 0
+merge "dbithigh_7/a_n39_n87#" "a_2574_769#"
+merge "dbitlow_0/m1_n57_39#" "dbithigh_7/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/mux1_0/b" "dividendin_6" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbithigh_7/m1_n94_n400#" "dbithigh_6/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/m1_n47_n292#" "quotient_5" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbithigh_4/m1_174_65#" "dbithigh_4/a_n39_n87#" -1648 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "dbithigh_4/a_n39_n87#" "a_1596_770#"
+merge "dbithigh_3/m1_n94_n473#" "dbithigh_2/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n57_n25#" "dbithigh_7/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_n57_n86#" "dbitlow_6/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_3/a_n57_n251#" "dbitlow_2/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/m1_n94_n429#" "dbithigh_6/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_6/mux1_0/c" "m1_3716_403#" -3760 0 0 0 0 0 0 0 0 0 0 0 0 -80 -56 0 -8 0 0
+merge "m1_3716_403#" "dbitlow_6/mux1_0/a"
+merge "dbitlow_6/mux1_0/a" "m1_3730_403#"
+merge "and_0/z" "dbithigh_7/a_n94_14#" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/a_n94_14#" "dbithigh_6/a_n94_14#"
+merge "dbithigh_6/a_n94_14#" "dbithigh_5/a_n94_14#"
+merge "dbithigh_5/a_n94_14#" "dbithigh_4/a_n94_14#"
+merge "dbithigh_4/a_n94_14#" "dbithigh_3/a_n94_14#"
+merge "dbithigh_3/a_n94_14#" "dbithigh_2/a_n94_14#"
+merge "dbithigh_2/a_n94_14#" "dbithigh_1/a_n94_14#"
+merge "dbithigh_1/a_n94_14#" "dbithigh_0/a_n94_14#"
+merge "dbithigh_0/a_n94_14#" "a_2610_806#"
+merge "dbithigh_3/m1_n94_n419#" "dbithigh_2/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n57_29#" "dbithigh_7/m1_155_n419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_4/m1_n94_n409#" "dbithigh_3/m1_155_n409#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/a_n57_n60#" "dbitlow_1/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_0/m1_67_n389#" "m1_167_618#" -432704 0 0 0 0 0 0 0 0 0 0 0 0 -9200 -4600 -16 -16 0 0
+merge "dbithigh_5/a_n94_n545#" "dbithigh_4/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/m1_n94_n439#" "dbithigh_2/m1_155_n439#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/mux1_0/c" "m1_3028_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "m1_3028_403#" "dbitlow_2/mux1_0/a"
+merge "dbitlow_2/mux1_0/a" "m1_3042_403#"
+merge "dbithigh_5/m1_n87_n135#" "dbithigh_4/m1_21_n88#" -11856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_4/m1_21_n88#" "m2_1425_745#"
+merge "dbithigh_4/m1_n94_n400#" "dbithigh_3/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_58_29#" "sel1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/mux1_0/b" "dividendin_5" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbithigh_5/a_n94_n717#" "dbithigh_4/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_4/m1_n57_n86#" "dbitlow_3/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbithigh_7/addsub1_0/c" "dbithigh_7/addsub1_0/a_n80_17#" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/addsub1_0/a_n80_17#" "a_2398_717#"
+merge "dbithigh_5/m1_n94_n473#" "dbithigh_4/m1_155_n473#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_5/mux1_0/c" "m1_3544_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "m1_3544_403#" "dbitlow_5/mux1_0/a"
+merge "dbitlow_5/mux1_0/a" "m1_3558_403#"
+merge "dbitlow_7/mux1_0/b" "dividendin_0" -2752 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 -36 -27 0 0
+merge "dbithigh_4/m1_n94_n429#" "dbithigh_3/m1_155_n429#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_58_9#" "sel2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_1/m1_n57_n25#" "dbitlow_0/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_6/mux1_0/b" "dividendin_1" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbitlow_0/a_n57_n51#" "dbithigh_7/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_3/a_n57_n60#" "dbitlow_2/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_5/a_n94_n508#" "dbithigh_4/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and_0/Gnd" "dbithigh_7/reg1_0/Gnd" -2641 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -145 -105 0 0
+merge "dbithigh_7/reg1_0/Gnd" "m1_2601_785#"
+merge "dbithigh_7/m1_n94_n534#" "dbithigh_6/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_2/a_n94_n499#" "dbithigh_1/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_1/m1_n94_n400#" "dbithigh_0/m1_155_n400#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_3/mux1_0/c" "m1_3200_403#" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "m1_3200_403#" "dbitlow_3/mux1_0/a"
+merge "dbitlow_3/mux1_0/a" "m1_3214_403#"
+merge "dbitlow_4/mux1_0/a" "dbitlow_4/mux1_0/c" -4700 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 0 -8 0 0
+merge "dbitlow_4/mux1_0/c" "m1_3372_403#"
+merge "m1_3372_403#" "m1_3386_403#"
+merge "dbitlow_5/mux1_0/b" "dividendin_2" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbitlow_1/reg1_0/reset" "dbitlow_0/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_5/m1_n57_n86#" "dbitlow_4/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_4/a_n57_n60#" "dbitlow_3/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_2/a_n57_n251#" "dbitlow_1/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_6/m1_n57_n86#" "dbitlow_5/m1_55_n86#" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_5/a_n57_n60#" "dbitlow_4/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_3/mux1_0/b" "dividendin_4" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbitlow_4/mux1_0/b" "dividendin_3" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "dbitlow_6/a_n57_n60#" "dbitlow_5/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_7/a_n57_n60#" "dbitlow_6/a_60_n60#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_6/a_n57_n251#" "dbitlow_5/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_7/a_n57_n251#" "dbitlow_6/a_4_n253#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_6/m1_n47_n292#" "quotient_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_4/a_n94_n545#" "dbithigh_3/a_156_n545#" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_4/m1_n94_n534#" "dbithigh_3/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_3/m1_n57_39#" "dbitlow_2/m1_58_39#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_2/m1_n57_29#" "dbitlow_1/mux1_0/sel1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "dbitlow_1/mux1_0/sel1" "dbitlow_0/m1_58_29#"
+merge "dbithigh_1/reg1_0/d" "divisorin_6" -423 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "dbithigh_6/m1_n87_n135#" "dbithigh_5/m1_21_n88#" -10336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 0 0
+merge "dbithigh_5/m1_21_n88#" "m2_1751_745#"
+merge "dbithigh_4/a_n94_n717#" "dbithigh_3/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_0/a_n57_n251#" "dbithigh_7/a_155_n717#" -800 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_7/a_155_n717#" "a_2611_82#"
+merge "dbitlow_3/m1_n47_n292#" "quotient_4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_7/a_n94_n499#" "dbithigh_6/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_4/a_n94_n508#" "dbithigh_3/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_1/m1_n94_n534#" "dbithigh_0/m1_100_n534#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_1/a_n94_n499#" "dbithigh_0/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_2/reg1_0/d" "divisorin_5" -564 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "dbitlow_6/m1_n57_39#" "dbitlow_5/m1_58_39#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_n47_n292#" "quotient_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_n57_39#" "dbitlow_6/m1_58_39#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_7/m1_58_39#" "a_4110_370#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_0/m1_n47_n292#" "quotient_7" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "dbitlow_4/reg1_0/q" "quotient_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_4/reg1_0/d" "divisorin_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "dbithigh_3/a_n94_n717#" "dbithigh_2/a_155_n717#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/reg1_0/d" "divisorin_4" -564 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "dbitlow_5/m1_n57_n25#" "dbitlow_4/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbitlow_3/m1_n57_29#" "dbitlow_2/m1_58_29#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dbithigh_6/a_n94_n499#" "dbithigh_5/a_155_n499#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbithigh_3/a_n94_n508#" "dbithigh_2/a_155_n508#" -480 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dbitlow_4/m1_n57_n25#" "dbitlow_3/m1_60_n25#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

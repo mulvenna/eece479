@@ -1,0 +1,30 @@
+Shelby Mosbrucker (12788113), s.mosbrucker@gmail.com
+Nicholas Mulvenna (47733100), mulvenna@linux.com
+
+Y
+
+We have included Makefile-driven tests for both our specification and layout.
+
+For the specification directory, you can run Verilog-XL using these targets:
+$ make test_controller
+$ make test_divider
+
+In our cells & layout directories, we have already included the 'ext' files.
+Our cells & layout Makefiles will run both ext2sim and irsim (using assertions).
+
+For the cells directory:
+$ make and
+$ make or
+$ make mux1
+$ make shift1
+$ make addsub1
+$ make reg1
+
+For the layout directory:
+$ make controller
+$ make datapath
+$ make divider
+$ make top
+(the divider and top targets are two different test cases for the top)
+
+NONE

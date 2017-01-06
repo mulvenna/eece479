@@ -1,0 +1,61 @@
+magic
+tech scmos
+timestamp 1428705999
+<< polysilicon >>
+rect -57 -51 -1 -48
+rect 60 -51 115 -48
+rect -57 -60 -1 -57
+rect 60 -60 115 -57
+rect -57 -97 116 -95
+rect -17 -100 -14 -97
+rect -57 -251 -32 -249
+rect 106 -251 115 -249
+rect 4 -253 108 -251
+<< metal1 >>
+rect 13 59 17 65
+rect 27 59 31 66
+rect 41 59 45 66
+rect -57 48 -4 52
+rect 58 48 115 52
+rect -57 39 0 43
+rect 58 39 115 43
+rect -57 29 0 33
+rect 58 29 115 33
+rect -57 19 0 23
+rect 58 19 115 23
+rect -57 9 0 13
+rect 58 9 115 13
+rect 27 -4 31 0
+rect 27 -7 36 -4
+rect -57 -25 0 -21
+rect 60 -25 115 -21
+rect -57 -86 -1 -82
+rect 55 -86 116 -82
+rect 35 -101 39 -92
+rect 56 -109 59 -86
+rect 35 -289 39 -283
+rect -43 -292 39 -289
+<< metal2 >>
+rect -47 65 13 69
+rect -47 -288 -43 65
+rect -8 -14 -4 52
+rect -8 -90 -5 -14
+<< m2contact >>
+rect 13 65 17 69
+rect -4 48 0 52
+rect -5 -18 -1 -14
+rect -9 -94 -5 -90
+rect -47 -292 -43 -288
+use ../cells/mux1  mux1_0
+timestamp 1428094853
+transform 1 0 29 0 1 38
+box -29 -38 29 21
+use ../cells/shift1  shift1_0
+timestamp 1428459501
+transform 1 0 35 0 1 -64
+box -36 -29 25 57
+use ../cells/reg1  reg1_0
+timestamp 1428701549
+transform 0 1 7 -1 0 -144
+box -52 -48 141 101
+<< end >>

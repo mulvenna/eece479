@@ -1,0 +1,44 @@
+timestamp 1428094853
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "z" 310 0 -16 -38 ndc 100 74 0 0 0 0 0 0 0 0 0 0 128 72 0 0 0 0
+node "a_12_n20#" 47 0 12 -20 ndiff 28 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "sel2b" 143 0 3 -23 p 0 0 0 0 65 46 0 0 0 0 0 0 232 124 0 0 0 0
+node "a_n2_n30#" 180 0 -2 -30 ndiff 108 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "sel2" 200 0 -18 -33 p 0 0 0 0 86 60 0 0 0 0 0 0 232 124 0 0 0 0
+node "a_n16_n30#" 113 0 -16 -30 ndiff 68 42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b" 207 0 12 -10 ndiff 124 70 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "sel1b" 127 0 -9 -3 p 0 0 0 0 59 42 0 0 0 0 0 0 232 124 0 0 0 0
+node "a" 140 0 -2 0 ndiff 84 50 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "sel1" 308 0 -23 -13 p 0 0 0 0 118 84 0 0 0 0 0 0 232 124 0 0 0 0
+node "c" 207 0 -16 -10 ndiff 124 70 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Gnd" 60 0 -29 -38 pw 0 0 16 16 0 0 0 0 0 0 0 0 232 124 0 0 0 0
+cap "Gnd" "sel2" 14794
+cap "Gnd" "c" 752
+cap "sel2b" "a_12_n20#" 752
+cap "sel1b" "b" 752
+cap "sel1" "b" 752
+cap "sel2b" "a_n2_n30#" 752
+cap "c" "sel1b" 752
+cap "c" "sel1" 752
+cap "Gnd" "sel1b" 12929
+cap "Gnd" "sel1" 17210
+cap "sel2" "a_n2_n30#" 752
+cap "sel2b" "a_n16_n30#" 752
+cap "Gnd" "a" 752
+cap "z" "sel2" 752
+cap "Gnd" "sel2b" 13483
+cap "sel2" "a_n16_n30#" 752
+cap "z" "Gnd" 3760
+cap "a" "sel1b" 752
+cap "sel1" "a_n2_n30#" 752
+cap "Gnd" "b" 752
+device mosfet nfet -2 -33 -1 -32 3 4 "Gnd" "sel2" 6 0 "z" 4 0 "a_n2_n30#" 4 0
+device mosfet nfet -16 -33 -15 -32 3 4 "Gnd" "sel2" 6 0 "z" 4 0 "a_n16_n30#" 4 0
+device mosfet nfet 12 -23 13 -22 3 4 "Gnd" "sel2b" 6 0 "z" 4 0 "a_12_n20#" 4 0
+device mosfet nfet 12 -13 13 -12 3 4 "Gnd" "sel1" 6 0 "a_12_n20#" 4 0 "b" 4 0
+device mosfet nfet -16 -13 -15 -12 3 4 "Gnd" "sel1" 6 0 "a_n16_n30#" 4 0 "c" 4 0
+device mosfet nfet -2 -3 -1 -2 3 4 "Gnd" "sel1b" 6 0 "a_n2_n30#" 4 0 "a" 4 0

@@ -1,0 +1,49 @@
+timestamp 1428726019
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_23_10#" 53 0 23 10 ndiff 18 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_15_10#" 53 0 15 10 ndiff 18 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7_10#" 53 0 7 10 ndiff 18 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n2_10#" 62 0 -2 10 ndiff 21 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q" 115 2632 56 10 ndiff 22 20 36 24 0 0 0 0 0 0 0 0 128 74 0 0 0 0
+node "a_n2_32#" 1028 12436 -2 32 pdiff 22 20 114 74 80 76 0 0 0 0 0 0 374 220 0 0 0 0
+node "e" 382 2618 29 8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+node "d" 382 2618 21 8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+node "c" 382 2618 13 8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+node "b" 382 2618 5 8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+node "a" 382 2618 -4 8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+node "Gnd" 238 0 -13 0 pw 41 38 16 16 0 0 0 0 0 0 0 0 249 162 0 0 0 0
+node "Vdd" 12208 0 -13 28 nw 16 16 138 94 0 0 0 0 0 0 0 0 341 208 0 0 1309 188
+cap "e" "Vdd" 1908
+cap "a" "Vdd" 1908
+cap "e" "Gnd" 1908
+cap "a" "Gnd" 1908
+cap "b" "Vdd" 1908
+cap "b" "Gnd" 1908
+cap "c" "Vdd" 1908
+cap "a_n2_32#" "d" 180
+cap "q" "Vdd" 752
+cap "c" "Gnd" 1908
+cap "q" "Gnd" 752
+cap "a_n2_32#" "e" 180
+cap "a_n2_32#" "Vdd" 4164
+cap "a_n2_32#" "b" 180
+cap "a_n2_32#" "Gnd" 2660
+cap "Vdd" "d" 1908
+cap "a_n2_32#" "c" 180
+cap "d" "Gnd" 1908
+device mosfet nfet 54 10 55 11 2 3 "Gnd" "a_n2_32#" 4 0 "Gnd" 3 0 "q" 3 0
+device mosfet nfet 29 10 30 11 2 3 "Gnd" "e" 4 0 "a_23_10#" 3 0 "a_n2_32#" 3 0
+device mosfet nfet 21 10 22 11 2 3 "Gnd" "d" 4 0 "a_15_10#" 3 0 "a_23_10#" 3 0
+device mosfet nfet 13 10 14 11 2 3 "Gnd" "c" 4 0 "a_7_10#" 3 0 "a_15_10#" 3 0
+device mosfet nfet 5 10 6 11 2 3 "Gnd" "b" 4 0 "a_n2_10#" 3 0 "a_7_10#" 3 0
+device mosfet nfet -4 10 -3 11 2 3 "Gnd" "a" 4 0 "Gnd" 3 0 "a_n2_10#" 3 0
+device mosfet pfet 54 32 55 33 2 6 "Vdd" "a_n2_32#" 4 0 "Vdd" 6 0 "q" 6 0
+device mosfet pfet 29 32 30 33 2 6 "Vdd" "e" 4 0 "Vdd" 6 0 "a_n2_32#" 6 0
+device mosfet pfet 21 32 22 33 2 6 "Vdd" "d" 4 0 "a_n2_32#" 6 0 "Vdd" 6 0
+device mosfet pfet 13 32 14 33 2 6 "Vdd" "c" 4 0 "Vdd" 6 0 "a_n2_32#" 6 0
+device mosfet pfet 5 32 6 33 2 6 "Vdd" "b" 4 0 "a_n2_32#" 6 0 "Vdd" 6 0
+device mosfet pfet -4 32 -3 33 2 6 "Vdd" "a" 4 0 "Vdd" 6 0 "a_n2_32#" 6 0

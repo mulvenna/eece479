@@ -1,0 +1,16 @@
+Files for EECE 479 Project -- Winter 2013
+Adapted from Steve Wilton, UBC
+
+This directory contain some files that you might find useful
+for your EECE 479 project.  There are two sets of files.
+
+In the "specification" subdirectory, you will find stubs (templates)
+that you should use when writing your Verilog specification.  You will
+also find a testbench you can use to test your Verilog design.
+
+The "cells" subdirectory will be used to store the layouts for
+primitive cells as described in the handout.  The "layout" subdirectory
+will be used to store the layout of the chip, again as described in the
+handout.  The "layout" subdirectory also contains a .cmd file you can
+use to test your top-level layout.  You will likely want to create your
+own .cmd files to test the individual components.

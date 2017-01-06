@@ -1,0 +1,103 @@
+timestamp 1428795827
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use ../cells/addsub1 addsub1_0 0 1 74 -1 0 309
+use ../cells/and and_0 0 1 16 -1 0 129
+use ../cells/reg1 reg1_0 0 -1 101 -1 0 41
+node "Vdd" 0 608 145 49 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "m2_n10_49#" 0 4408 -10 49 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 0 0
+node "q" 0 2068 69 -109 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "qb" 1 4653 22 -109 m1 0 0 0 0 0 0 0 0 0 0 0 0 99 72 0 0 0 0
+node "m1_36_75#" 0 3208 36 75 v 0 0 0 0 0 0 0 0 0 0 0 0 44 38 120 68 0 0
+node "m1_16_88#" 1 11374 16 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 242 150 0 0 0 0
+node "m1_n3_121#" 1 12065 -3 121 v 0 0 0 0 0 0 0 0 0 0 0 0 95 74 448 232 0 0
+node "Gnd" 1 12532 -3 134 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 652 334 0 0
+node "m1_36_150#" 1 12552 36 150 v 0 0 0 0 0 0 0 0 0 0 0 0 128 80 392 204 0 0
+node "m1_21_154#" 1 7384 21 154 m1 0 0 0 0 0 0 0 0 0 0 0 0 52 42 292 154 0 0
+node "x" 1 10252 68 168 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 532 274 0 0
+node "startb" 3 50384 12 154 m1 0 0 0 0 0 0 0 0 0 0 0 0 1072 544 0 0 0 0
+node "m1_n3_152#" 1 9052 -3 152 m1 0 0 0 0 0 0 0 0 0 0 0 0 136 84 188 102 0 0
+node "reset" 153 23306 140 -66 p 0 0 0 0 34 34 0 0 0 0 0 0 180 98 652 334 0 0
+node "clk" 133 24221 121 97 pc 0 0 0 0 52 40 0 0 0 0 0 0 277 156 466 254 0 0
+node "a_122_192#" 225 49506 122 192 pc 0 0 0 0 148 82 0 0 0 0 0 0 528 304 818 506 0 0
+node "c" 48 5970 107 224 pc 0 0 0 0 18 18 0 0 0 0 0 0 36 26 184 100 0 0
+node "a_116_389#" 24 1904 116 389 pc 0 0 0 0 16 16 0 0 0 0 0 0 16 16 0 0 0 0
+node "b" 48 2142 70 411 p 0 0 0 0 18 18 0 0 0 0 0 0 0 0 0 0 0 0
+cap "reset" "qb" 540
+cap "m1_36_150#" "a_122_192#" 720
+cap "startb" "m1_n3_152#" 720
+cap "Gnd" "a_122_192#" 720
+cap "clk" "m1_36_75#" 720
+cap "clk" "m1_n3_121#" 540
+cap "m1_16_88#" "clk" 900
+cap "m1_16_88#" "m1_36_75#" 540
+cap "startb" "x" 720
+cap "reset" "q" 720
+cap "clk" "a_122_192#" 720
+cap "a_122_192#" "c" 304
+cap "m1_n3_121#" "a_122_192#" 720
+cap "reg1_0/trans_1/a_n4_n13#" "reg1_0/q" 1305
+cap "reg1_0/q" "reg1_0/not_3/a_5_n2#" 4569
+cap "reg1_0/not_2/a_5_n2#" "reg1_0/q" 2814
+cap "reg1_0/q" "reg1_0/clk" 38
+cap "reg1_0/Vdd" "reg1_0/Vdd" -282
+cap "reg1_0/Vdd" "reg1_0/nor_1/a_7_n7#" 546
+cap "reg1_0/nor_1/a_7_n7#" "reg1_0/Vdd" 180
+cap "a_122_192#" "reg1_0/nor_0/a_n8_n7#" 3354
+cap "a_122_192#" "reg1_0/nor_0/a_7_n7#" 38
+cap "reg1_0/Vdd" "a_122_192#" 405
+cap "reg1_0/Gnd" "a_122_192#" 6256
+cap "reg1_0/Vdd" "reg1_0/Gnd" -171
+cap "a_122_192#" "reg1_0/nor_0/a_n6_n5#" 2250
+cap "a_122_192#" "reg1_0/trans_0/a_1_n14#" 180
+cap "a_122_192#" "reg1_0/a_n30_n35#" 60
+cap "a_122_192#" "reg1_0/Gnd" 1752
+cap "reg1_0/clk" "reg1_0/Gnd" 90
+cap "a_122_192#" "reg1_0/Vdd" 135
+cap "reg1_0/Gnd" "reg1_0/Vdd" -57
+cap "and_0/a_n16_12#" "addsub1_0/Gnd" 2871
+cap "and_0/b" "addsub1_0/Gnd" 720
+cap "and_0/Vdd" "addsub1_0/Gnd" 2827
+cap "addsub1_0/x" "addsub1_0/a_n4_0#" 722
+cap "addsub1_0/Gnd" "and_0/a_n16_n11#" 352
+cap "a_122_192#" "addsub1_0/Vdd" 540
+cap "clk" "m1_n3_121#" 180
+cap "x" "addsub1_0/Gnd" 1080
+cap "addsub1_0/a_n4_0#" "x" 950
+cap "x" "addsub1_0/Gnd" 1748
+cap "addsub1_0/Vdd" "addsub1_0/c" 2100
+cap "addsub1_0/a" "addsub1_0/Vdd" 360
+cap "addsub1_0/a" "addsub1_0/Vdd" 1248
+cap "addsub1_0/Vdd" "addsub1_0/c" 540
+cap "addsub1_0/Vdd" "addsub1_0/add" 312
+cap "addsub1_0/add" "addsub1_0/Vdd" 312
+merge "addsub1_0/c" "c" -2648 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "addsub1_0/Vdd" "and_0/Vdd" -1584 0 0 0 0 -8 -12 0 0 0 0 0 0 -8 -8 0 0 0 0
+merge "and_0/Vdd" "m1_36_150#"
+merge "m1_36_150#" "reg1_0/Vdd"
+merge "reg1_0/Vdd" "m1_36_75#"
+merge "m1_36_75#" "m2_n10_49#"
+merge "m2_n10_49#" "Vdd"
+merge "Vdd" "addsub1_0/add"
+merge "addsub1_0/add" "a_116_389#"
+merge "and_0/a" "addsub1_0/z" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -23 0 0 0 0
+merge "addsub1_0/z" "m1_21_154#"
+merge "and_0/b" "startb" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "and_0/z" "reg1_0/d" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "reg1_0/d" "m1_16_88#"
+merge "addsub1_0/b" "b" -2142 0 0 0 0 -18 -18 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and_0/Gnd" "addsub1_0/Gnd" -19659 0 0 0 0 0 0 0 0 0 0 0 0 -199 -154 -216 -116 0 0
+merge "addsub1_0/Gnd" "m1_n3_152#"
+merge "m1_n3_152#" "Gnd"
+merge "Gnd" "reg1_0/Gnd"
+merge "reg1_0/Gnd" "m1_n3_121#"
+merge "reg1_0/qb" "qb" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "addsub1_0/x" "x" -6063 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 -244 -126 0 0
+merge "addsub1_0/a" "reg1_0/q" -38174 0 0 0 0 0 -4 0 0 0 0 0 0 -508 -298 -580 -345 0 0
+merge "reg1_0/q" "a_122_192#"
+merge "a_122_192#" "q"
+merge "reg1_0/clk" "clk" -20521 0 0 0 0 -34 -31 0 0 0 0 0 0 -273 -154 -352 -200 0 0
+merge "reg1_0/nor_1/a_7_n7#" "reset" -866 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,29 @@
+timestamp 1428029823
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_n16_n11#" 87 0 -16 -11 ndiff 52 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "z" 86 987 18 -8 ndiff 25 20 25 20 0 0 0 0 0 0 0 0 105 52 0 0 0 0
+node "a_n16_12#" 561 3966 -16 12 pdiff 28 22 52 34 168 102 0 0 0 0 0 0 203 106 0 0 0 0
+node "b" 257 1588 -3 -19 p 0 0 0 0 172 94 0 0 0 0 0 0 112 64 0 0 0 0
+node "a" 257 1588 -20 -19 p 0 0 0 0 172 94 0 0 0 0 0 0 36 26 0 0 0 0
+node "Gnd" 218 0 -25 -19 pw 60 44 16 16 0 0 0 0 0 0 0 0 232 124 0 0 0 0
+node "Vdd" 6904 0 -25 4 nw 16 16 88 66 0 0 0 0 0 0 0 0 264 140 0 0 1000 140
+cap "Vdd" "b" 6176
+cap "z" "Vdd" 1034
+cap "Gnd" "a_n16_12#" 7382
+cap "b" "a" 600
+cap "Vdd" "a" 7116
+cap "Gnd" "b" 9748
+cap "Gnd" "z" 1034
+cap "b" "a_n16_12#" 480
+cap "Vdd" "a_n16_12#" 7899
+cap "Gnd" "a" 6176
+device mosfet nfet 18 -11 19 -10 3 5 "Gnd" "a_n16_12#" 6 0 "Gnd" 5 0 "z" 5 0
+device mosfet nfet -3 -11 -2 -10 4 4 "Gnd" "b" 8 0 "a_n16_n11#" 4 0 "a_n16_12#" 4 0
+device mosfet nfet -20 -11 -19 -10 4 4 "Gnd" "a" 8 0 "Gnd" 4 0 "a_n16_n11#" 4 0
+device mosfet pfet 18 13 19 14 3 5 "Vdd" "a_n16_12#" 6 0 "z" 5 0 "Vdd" 5 0
+device mosfet pfet -3 12 -2 13 4 4 "Vdd" "b" 8 0 "a_n16_12#" 4 0 "Vdd" 4 0
+device mosfet pfet -20 12 -19 13 4 4 "Vdd" "a" 8 0 "Vdd" 4 0 "a_n16_12#" 4 0
